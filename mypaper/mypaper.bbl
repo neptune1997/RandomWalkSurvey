@@ -67,4 +67,23 @@ L.~Grady, ``Random walks for image segmentation,'' \emph{IEEE Transactions on
   Pattern Analysis and Machine Intelligence}, vol.~28, no.~11, pp. 1768--1783,
   Nov 2006.
 
+\bibitem{qiu2005image}
+H.~Qiu and E.~R. Hancock, ``Image segmentation using commute times.'' 2005.
+
+\bibitem{zhu2003semi-supervised}
+X.~Zhu, Z.~Ghahramani, and J.~D. Lafferty, ``Semi-supervised learning using
+  gaussian fields and harmonic functions,'' pp. 912--919, 2003.
+
+\bibitem{szummer2002partially}
+M.~Szummer and T.~S. Jaakkola, ``Partially labeled classification with markov
+  random walks,'' vol.~14, pp. 945--952, 2002.
+
+\bibitem{azran2007the}
+A.~Azran, ``The rendezvous algorithm: multiclass semi-supervised learning with
+  markov random walks,'' pp. 49--56, 2007.
+
+\bibitem{tishby2001data}
+N.~Tishby and N.~Slonim, ``Data clustering by markovian relaxation and the
+  information bottleneck method,'' pp. 640--646, 2001.
+
 \end{thebibliography}

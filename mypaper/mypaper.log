@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  12 APR 2018 21:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  12 APR 2018 21:31
 entering extended mode
 **C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
 (C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
@@ -215,24 +215,6 @@ LaTeX Warning: Citation `A Random Walks View of Spectral Segmentation' on page
 LaTeX Warning: Citation `von luxburg2007a' on page 1 undefined on input line 43
 3.
 
-
-LaTeX Warning: Citation `qiu2005image' on page 1 undefined on input line 433.
-
-
-LaTeX Warning: Citation `zhu2003semi-supervised' on page 1 undefined on input l
-ine 433.
-
-
-LaTeX Warning: Citation `szummer2002partially' on page 1 undefined on input lin
-e 433.
-
-
-LaTeX Warning: Citation `azran2007the' on page 1 undefined on input line 433.
-
-
-LaTeX Warning: Citation `tishby2001data' on page 1 undefined on input line 433.
-
-
 LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 55
 0.
 
@@ -274,31 +256,60 @@ Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--701
-\OT1/ptm/m/n/10.03749 tech-nolo-gies: Sur-vey of cur-ren-t meth-od-s and
+Underfull \hbox (badness 10000) in paragraph at lines 692--699
+[]\OT1/ptm/m/n/10.03749 Much lit-er-a-ture has record-ed meth-od-s of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--701
-\OT1/ptm/m/n/10.03749 pos-si-ble ex-ten-sion-s. MIS-R-C work-ing pa-per 03-
+Underfull \hbox (badness 5652) in paragraph at lines 692--699
+\OT1/ptm/m/n/10.03749 col-lab-o-ra-tive fil-ter-ing, with suc-cess-ful demon-st
+ra-tions
  []
 
 
-Overfull \hbox (17.22105pt too wide) in paragraph at lines 695--701
+Underfull \hbox (badness 10000) in paragraph at lines 692--699
+\OT1/ptm/m/n/10.03749 of Bayesian, non-para-met-ric, lin-ear meth-od-s etc.[
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--699
+\OT1/ptm/m/n/10.03749 Ged-im-i-nas Ado-mavi-cius and Alexan-der Tuzhilin.
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 692--699
+\OT1/ptm/m/n/10.03749 and pos-si-ble ex-ten-sion-s. MIS-R-C work-ing pa-per 03-
+
+ []
+
+
+Overfull \hbox (17.22105pt too wide) in paragraph at lines 692--699
 \OT1/ptm/m/n/10.03749 29,http://misrc.umn.edu/workingpapers/abstracts/0329.aspx
 ,May
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 695--701
+Underfull \hbox (badness 4543) in paragraph at lines 692--699
 \OT1/ptm/m/n/10.03749 on max-i-miz-ing sat-is-fac-tion and prof-it] in-tro-duce
 d a
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 695--701
-\OT1/ptm/m/n/10.03749 movies for rec-om-men-da-tion (3) com-pute dis-sim-i-lar-
-i-ty
+Underfull \hbox (badness 2351) in paragraph at lines 692--699
+\OT1/ptm/m/n/10.03749 ap-pli-ca-tion to col-lab-o-ra-tive rec-om-men-da-tion] a
+l-so use
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 692--699
+\OT1/ptm/m/n/10.03749 rec-om-men-da-tion. For bet-ter un-der-stand-ing, the au-
+thor
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 692--699
+\OT1/ptm/m/n/10.03749 database. These el-e-ments are not nec-es-sar-i-ly di-rec
+t-ly
  []
 
 Missing character: There is no ¡ in font ptmr7t!
@@ -312,11 +323,7 @@ Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
-
-Underfull \vbox (badness 1314) has occurred while \output is active []
-
-
-(C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl [5])
+ [5] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -354,7 +361,7 @@ fb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Applicatio
 ns/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/f
 onts/type1/urw/times/utmr8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on mypaper.pdf (6 pages, 159076 bytes).
+Output written on mypaper.pdf (6 pages, 159510 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

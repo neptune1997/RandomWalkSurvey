@@ -13,16 +13,16 @@ I was expecting a `,' or a `}'---line 63 of file refer.bib
  : @article{von 
  :              luxburg2007a,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "qiu2005image"
-Warning--I didn't find a database entry for "zhu2003semi-supervised"
-Warning--I didn't find a database entry for "szummer2002partially"
-Warning--I didn't find a database entry for "azran2007the"
-Warning--I didn't find a database entry for "tishby2001data"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in brand2005a
 Warning--empty journal in woodruff2000enhancing
+Warning--empty journal in qiu2005image
+Warning--empty journal in zhu2003semi-supervised
+Warning--empty journal in szummer2002partially
+Warning--empty journal in azran2007the
+Warning--empty journal in tishby2001data
 
 Done.
 (There were 3 error messages)
