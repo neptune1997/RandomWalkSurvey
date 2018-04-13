@@ -588,9 +588,12 @@ Alpha is the probability that the rand walk restart in given steps. Alpha is cru
 
 
 Page Rank has nothing to do with user-supplied query. Therefore, Jon M. Kleinberg [Authoritative sources in a hyperlinked environment] came up with ¡°Hyperlink-Induce topic search¡± which can filter the search result for a broad topic. The author propose that there are two kinds of useful web-pages for topic search: authorities and hubs. He also proposed a link-base model for the conferral of authority. There are millions pages relevant to a broad topic. Authorities are the most central pages for the broad topic, which provide good information for the broad topic. Whereas the hubs are those pages contains hyper-links redirecting to the authorities. Now, we can discuss that main procedure of how the author provide a broad topic search result for the user. Given a query, the author construct a focused subgraph of the www relevant to the broad topic. The subgraph contains a set of relevant pages rich in candidate authorities. Then the author present a algorithm to discover authorities over the subgraph. The author would like to construct a subgraph denoted by S which satisfy the following requirements:
-1.	S is relatively small
-2.	S is rich in relevant pages
-3.	S contains most the strongest authorities
+\begin{itemize}
+  \item S is relatively small
+  \item S is rich in relevant pages
+  \item S contains most the strongest authorities
+\end{itemize}
+
 How to construct subgraph S is the first difficult in HITS. The author rendered a solution:
 1.	collect the t highest ranked pages for the query as the root set R
 2.	expanding R along the links that enter and leave it
@@ -690,12 +693,10 @@ users. The assumption of collaborative filtering is that the two people who have
 
 
 Much literature has recorded methods of collaborative filtering, with successful demonstrations of Bayesian, nonparametric, linear methods etc.[ Gediminas
-
-
 Adomavicius and Alexander Tuzhilin. Recommendation technologies: Survey of current methods and possible extensions. MISRC working paper 03-29,http://misrc.umn.edu/workingpapers/abstracts/0329.aspx,May 2003.] All these methods are essentially the same. They are all match the individual to others based on there choices, and use combination of their experiences to predict future choices. But Brand et al [A random walks perspective on maximizing satisfaction and profit] introduced a random walk view to collaborative filtering. The goal of Brand is to find out what products a customer wants to buy next, what product categories are preferred by specific demographic groups. They derived a weighted association graph from a relational database. These weighted association graph include consumers and their web browsing behavior, shopping behavior and entertainment choices etc. \textbf{\underline{a fig of collaborative filtering}} The author look at the expected behavior of random walk on the association graph. Based on the hitting time and commute time, the authors employ a novel measure of similarity¡ªthe cosine correlation between states. Compared with other methods of collaborative filtering, one of the biggest advantages of random walks view is that it can incorporate large amounts of contextual information. By using cross-validation, the author proved that the random walk view collaborative filtering is more predictive and robust to perturbations of edges on the association graph than other methods. The flow of random walk view is the heavy computing price. In that case the author employ approximation strategies to alleviate time complexity. Fouss et al [A novel way of computing similarities between nodes of a graph, with application to collaborative recommendation] also use random walk to movie collaborative recommendation. The author also considers relational database as a collection of element sets linked by their connection. The author exploits the graph structure of the relational database to compute dissimilarity measure between elements in sets. The dissimilarity is of course based on the hitting time and commute time. It was also the first time that hitting time and commute time measures was used in collaborative recommendation. For better understanding, the author gives us a specific example of the collaborative movie recommendation. If we get three elements, people, movie and movie category, and two relationships between people and movie and between movie and movie category, we have to do following things for movie recommendation.
-(1) compute dissimilarity measure between people based on the movies that they have watched
-(2) compute dissimilarity measure between people and movies for recommendation
-(3) compute dissimilarity measure between people and categories to give a prefer category for each person.
+(1) compute dissimilarity measure between people based on the movies that they have watched\\
+(2) compute dissimilarity measure between people and movies for recommendation\\
+(3) compute dissimilarity measure between people and categories to give a prefer category for each person.\\
 As a conclusion, Fouss et al introduced a general procedure for computing similarity between elements of a relational database. These elements are not necessarily directly connected. The authors use movie recommendation as an example to show us that their method has better performance than shortest path method on recommendation. However, there are two shortcomings of the author¡¯s method. For large databases, this method is time consuming and does not scale well. The other short coming is that the method is valid on a weighted, undirected graph.
 Although the random walk view of collaborative filtering is useful and has good performance, it also faces several challenges. One of the biggest problem is the start-up problem presented by Resnick [An Open Architecture for Collaborative Filtering of Netnews]. All collaborative filtering systems are based on an existed database. If there isn¡¯t an existed database, the system can¡¯t be built up.
 
@@ -736,7 +737,7 @@ C is a unitrary transformation to rotate the spin in $H_{c}$.  A frequently used
 \begin{equation}
 \vert \uparrow \rangle \otimes \vert 0\rangle\xrightarrow{H} \frac{1}{\sqrt{2}} (\vert \uparrow\rangle + \vert\downarrow\rangle)\otimes\vert0\rangle
 \end{equation}
-The single quantum walk transforamtion can be defined as follows.
+The single quantum walk transformation can be defined as follows.
 \begin{equation}
  U = S\cdot(C\otimes I)
 \end{equation}
@@ -753,13 +754,30 @@ The T steps of tansformation can be represented by $U^{T}$.
 \subsection{Continuous Time Quantum Walk}
 
 
-The original purpose of  continuous time quantum walk is  to speed up many a algorithm using classic random walks. The concept of continuous time quantum walk was first presented by Farhi et al. in 1997.[Quantum computation and Decision tree] The authors exploit quantum walk in the decision tree algorithm instead of classic random walk to . Different from discrete time quantum walk, continuous time quantum walk don't need a coin space $Hc$, taking place entirely in the Hilbert space $Hp$.[quantum random walks - an introductory overview] . The idea of continuous time quantum walk is from continuous random walk.  The continuous time random walk can be defined as $P(t) = exp(-Ht)P(0)$. Similarly, the unitary time evolution operator of continuous time quantum walk is
+The original purpose of  continuous time quantum walk is  to speed up many a algorithm using classic random walks. The concept of continuous time quantum walk was first presented by Farhi et al. in 1997.[Quantum computation and Decision tree] The authors exploit quantum walk in the decision tree algorithm instead of classic random walk to . Different from discrete time quantum walk, continuous time quantum walk don't need a coin space $Hc$, taking place entirely in the Hilbert space $Hp$.[quantum random walks - an introductory overview] . The idea of continuous time quantum walk is from continuous random walk.  The continuous time random walk can be defined as
+\begin{equation}
+P(t) = exp(-Ht)P(0)
+\end{equation}. Similarly, the unitary time evolution operator of continuous time quantum walk is
 
-$\hat{U}(t)=exp(-i\hat{H}t)$ .
+\begin{equation}\label{unitary}
+\hat{U}(t)=exp(-i\hat{H}t)
+\end{equation}
 
 
 
+\subsection{Properties of Quantum walk}
 
+
+\subsection{Algorithms based on Quantum walk}
+
+\subsubsection{quantum decision tree algorithm}
+\par
+Fahri\cite{Quantum Computation and Decision Trees} originally presented the idea of continuous time quantum walk with the example of decision tree algorithm. He chooses the approach that systematically exploring the whole tree with a probabilistic rule. The author wants that the n-level nodes can be reach in polynomial time with a considerable probability. A tree is penetrable when its node or nodes in n-level meet the requirement above. If a tree is penetrable for an specific algorithm, we believe that the problem corresponding to the decision tree is solvable with this algorithm in polynomial time. 
+The author present the quantum walk algorithm for decision tree with following intuition.
+He considers decision tree nodes as quantum states in Hilbert space. Then He construct a Hamiltonian $\hat{H}$ which determines the time evolution of the quantum system. With the basis of Hamiltonian, The author presented the unitary time evolution operator shown in \ref{unitary}. The author compare quantum walk decision tree algorithm with classical counterpart, and find that there is a family of trees which are both classical penetrable and quantum penetrable. However, Some decision trees is quantum penetrable but not classical penetrable. With these findings, the author draw to the conclusion that quantum algorithms are more faster than the classical decision tree algorithms with respect to some decision tree problems. 
+
+\subsubsection{Quantum page rank algorithm }
+page rank algorithm is one of the most important random walk algorithms. When quantum computation is widely considered in the era of random walk, it is natural to apply quantum computation on page rank algorithm.  
 
 \section{Conclusion}
 The conclusion goes here.

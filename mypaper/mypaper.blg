@@ -7,6 +7,10 @@ White space in argument---line 12 of file mypaper.aux
  : \citation{von
  :               luxburg2007a}
 I'm skipping whatever remains of this command
+White space in argument---line 37 of file mypaper.aux
+ : \citation{Quantum
+ :                   Computation and Decision Trees}
+I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: refer.bib
 I was expecting a `,' or a `}'---line 63 of file refer.bib
@@ -25,4 +29,4 @@ Warning--empty journal in azran2007the
 Warning--empty journal in tishby2001data
 
 Done.
-(There were 3 error messages)
+(There were 4 error messages)

@@ -38,7 +38,7 @@ Kempe et al[quantum random walks - an introductory overvew] presented us two kin
 
 2. continuous time quantum walk
 
-   The original purpose of  continuous time quantum walk is  to speed up many a algorithm using classic random walks. The concept of continuous time quantum walk was first presented by Farhi et al. in 1997.[Quantum computation and Decision tree] The authors exploit quantum walk in the decision tree algorithm instead of classic random walk to . Different from discrete time quantum walk, continuous time quantum walk don't need a coin space $\mathcal{Hc}$, taking place entirely in the _Hilbert_ space $\mathcal{Hp}$.[quantum random walks - an introductory overvew] . The idea of continuous time quantum walk is from continuous random walk.  The continuous time random walk can be defined as $P(t) = exp(-Ht)P(0)$. Similarly, the unitary time evolution operator of continuous time quantum walk is 
+   The original purpose of  continuous time quantum walk is  to speed up many a algorithm using classic random walks. The concept of continuous time quantum walk was first presented by Farhi et al. in 1997.[Quantum computation and Decision tree] The authors exploit quantum walk in the decision tree algorithm instead of classic random walk . Different from discrete time quantum walk, continuous time quantum walk don't need a coin space $\mathcal{Hc}$, taking place entirely in the _Hilbert_ space $\mathcal{Hp}$.[quantum random walks - an introductory overvew] . The idea of continuous time quantum walk is from continuous random walk.  The continuous time random walk can be defined as $P(t) = exp(-Ht)P(0)$. Similarly, the unitary time evolution operator of continuous time quantum walk is 
 
    $\hat{U}(t)=exp(-i\hat{H}t) $ . 
 
@@ -47,6 +47,23 @@ Kempe et al[quantum random walks - an introductory overvew] presented us two kin
    __Quantum Computation and Decision Trees__(1998):
 
    the author devise a quantum algorithm for decision tree. 
+
+   conclusions :
+
+   - random walk and quantum walk both can reach n level in polymial time in n.
+   - some examples that quantum walk is faster than classical counterpart.
+
+   Introduction:
+
+   - brief introduction to decision tree
+   - introduce the method of quantum decision tree
+     1. consider nodes of the decision tree correspond to quantum states, which give a basis
+        for the Hilbert space. 
+     2. constructing a Hamiltonian ˆH with nonzero
+        off-diagonal matrix elements only between states that are connected in the corresponding
+        decision tree.
+     3. exploring the whole tree is to move through the tree with a probabilistic rule. 
+     4. ​
 
    __One-Dimensional Quantum Walks__(2003):
 
@@ -65,6 +82,13 @@ Kempe et al[quantum random walks - an introductory overvew] presented us two kin
    present a quantum page rank algorithm and compared with classical counterpart
 
    give a defination of quantum computer pagerank,
+
+   conclusions:
+
+   - outperforms the classical random walk 
+   - may break the classical hierarchy of the webpage depending on the  topology of the web.
+
+   introduction:
 
    ​
 

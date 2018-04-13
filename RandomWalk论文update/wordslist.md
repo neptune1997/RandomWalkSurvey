@@ -36,5 +36,7 @@
 
 17. credential
 
-18. ​
+18. quantum __penetrable__ 
+
+19. ​
 

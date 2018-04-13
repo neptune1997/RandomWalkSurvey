@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  12 APR 2018 21:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  13 APR 2018 13:32
 entering extended mode
 **C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
 (C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
@@ -233,12 +233,12 @@ Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no º in font ptmr7t!
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
 
 [2]
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
@@ -256,58 +256,58 @@ Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--699
+Underfull \hbox (badness 10000) in paragraph at lines 695--702
 []\OT1/ptm/m/n/10.03749 Much lit-er-a-ture has record-ed meth-od-s of
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 692--699
+Underfull \hbox (badness 5652) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 col-lab-o-ra-tive fil-ter-ing, with suc-cess-ful demon-st
 ra-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--699
+Underfull \hbox (badness 10000) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 of Bayesian, non-para-met-ric, lin-ear meth-od-s etc.[
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--699
+Underfull \hbox (badness 10000) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 Ged-im-i-nas Ado-mavi-cius and Alexan-der Tuzhilin.
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 692--699
+Underfull \hbox (badness 3815) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 and pos-si-ble ex-ten-sion-s. MIS-R-C work-ing pa-per 03-
 
  []
 
 
-Overfull \hbox (17.22105pt too wide) in paragraph at lines 692--699
+Overfull \hbox (17.22105pt too wide) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 29,http://misrc.umn.edu/workingpapers/abstracts/0329.aspx
 ,May
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 692--699
+Underfull \hbox (badness 4543) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 on max-i-miz-ing sat-is-fac-tion and prof-it] in-tro-duce
 d a
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 692--699
+Underfull \hbox (badness 2351) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 ap-pli-ca-tion to col-lab-o-ra-tive rec-om-men-da-tion] a
 l-so use
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 692--699
+Underfull \hbox (badness 2644) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 rec-om-men-da-tion. For bet-ter un-der-stand-ing, the au-
 thor
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 692--699
+Underfull \hbox (badness 2318) in paragraph at lines 695--702
 \OT1/ptm/m/n/10.03749 database. These el-e-ments are not nec-es-sar-i-ly di-rec
 t-ly
  []
@@ -323,7 +323,15 @@ Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
- [5] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+
+LaTeX Warning: Citation `Quantum Computation and Decision Trees' on page 6 unde
+fined on input line 775.
+
+(C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -335,18 +343,16 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6
-
-] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.aux)
+[6] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 1865 strings out of 495354
- 29816 string characters out of 3183130
- 95364 words of memory out of 3000000
- 5069 multiletter control sequences out of 15000+200000
+ 1867 strings out of 495354
+ 29865 string characters out of 3183130
+ 91364 words of memory out of 3000000
+ 5071 multiletter control sequences out of 15000+200000
  39959 words of font info for 72 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
  27i,11n,20p,3073b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -361,7 +367,7 @@ fb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Applicatio
 ns/CTEX/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/f
 onts/type1/urw/times/utmr8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on mypaper.pdf (6 pages, 159510 bytes).
+Output written on mypaper.pdf (6 pages, 161450 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
