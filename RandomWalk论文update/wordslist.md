@@ -38,5 +38,11 @@
 
 18. quantum __penetrable__ 
 
-19. ​
+19. envision
+
+20. entanglement
+
+21. scenario
+
+22. ​
 

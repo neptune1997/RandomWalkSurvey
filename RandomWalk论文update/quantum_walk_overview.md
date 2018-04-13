@@ -90,7 +90,41 @@ Kempe et al[quantum random walks - an introductory overvew] presented us two kin
 
    introduction:
 
+   Give us a backgroud of quantum network. 
+
    ​
+
+   ​
+
+   There are __many literature __ of quantum networks\cite{The DARPA quantum network}\cite{Outline of the SECOQC quantum-keydistribution
+   network in Vienna}\cite{Tokyo Quantum Network 2010}\cite{Swiss Quantum Network}\cite{QKD in standard optical telecommunications networks}\cite{Standardization of quantum key distribution. and the ETSI standardization initiative}. In order to study the behavior of pagerank algorithm on the quantum network, the authors present the quantum page rank algorithm\cite{Google in a quantum network}. However, the authors don't give a specific defination of quantum page rank algorithms, but give a admissible class shown as follows.
+
+   P1: The classical PageRank must be embedded into the quantum class with its undirected graph structure preserved. 
+   P2: The sum of all quantum PageRanks must equal to 1.
+   P3: The quantum PageRank obey a quantized Markov Chain (MC) rules.
+   P4: The classical algorithm to compute the quantum PageRank is also feasible.
+
+   The author exploit the idea of discrete time quantum walk. Hence we have to define the coin space $\mathcal{H_{c}}$and hilbert space $\mathcal{H_{p}}$ which are memtioned in the section of dicrete time quantum walk. The defination of coin space is similar to the one dimension quantum walk.
+
+   $\mathcal{H_{c}} = span\{\vert L\rangle ,\vert R\rangle\}$
+
+   However the hilbert space $\mathcal{H_{p}}$ here is a little tricky. Since the page rank algorithm is on a graph, the author define the Hilbert space as the space of oriented edges.  
+
+   $\mathcal{H_{p}} = span\{ \vert i \rangle_{1},\vert j\rangle_{2} \quad\vert \quad i,j \in N\}$
+
+   where N denotes the all the  vertices of the graph. 
+
+   With these defination and the method of Szegedy’s Quantization of Markov Chains \cite{Quantization of Markov Chains} We can present the unitatry step operator of quantum walk as follows. 
+
+   $U =S(2\prod - \mathbb{1})$
+
+   $S=\sum_{i,k=1}^{N} \vert j,k\rangle \langle  k,j\vert $
+
+   $\prod := \sum_{j=1}^{N} \vert \psi_{j} \rangle \langle \psi_{j}\vert$
+
+   $\vert\psi_{j}\rangle = \vert j\rangle_{1} \otimes \sum_{k=1}^{N} \sqrt{G_{kj}}\vert k\rangle_{2} $
+
+   Where $G_{ij}$ means the weight of edge ij.
 
    __Quantum Google in a Complex Network__(2013):
 
