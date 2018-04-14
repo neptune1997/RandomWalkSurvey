@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  14 APR 2018 12:53
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  14 APR 2018 21:25
 entering extended mode
 **C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
 (C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
@@ -351,40 +351,40 @@ fined on input line 779.
 
 
 LaTeX Warning: Citation `The DARPA quantum network' on page 6 undefined on inpu
-t line 785.
+t line 788.
 
 
 LaTeX Warning: Citation `Outline of the SECOQC quantum-keydistribution network 
-in Vienna' on page 6 undefined on input line 786.
+in Vienna' on page 6 undefined on input line 789.
 
 
 LaTeX Warning: Citation `Tokyo Quantum Network 2010' on page 6 undefined on inp
-ut line 786.
+ut line 789.
 
 
 LaTeX Warning: Citation `Swiss Quantum Network' on page 6 undefined on input li
-ne 786.
+ne 789.
 
 
 LaTeX Warning: Citation `QKD in standard optical telecommunications networks' o
-n page 6 undefined on input line 786.
+n page 6 undefined on input line 789.
 
 
 LaTeX Warning: Citation `Standardization of quantum key distribution. and the E
-TSI standardization initiative' on page 6 undefined on input line 786.
+TSI standardization initiative' on page 6 undefined on input line 789.
 
 
 LaTeX Warning: Citation `Google in a quantum network' on page 6 undefined on in
-put line 786.
+put line 789.
 
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 
 LaTeX Warning: Citation `Quantization of Markov Chains' on page 6 undefined on 
-input line 807.
+input line 810.
 
 
-Overfull \hbox (106.88382pt too wide) detected at line 813
+Overfull \hbox (106.88382pt too wide) detected at line 816
 \OML/cmm/m/it/10 U \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (2 [] \O
 MS/cmsy/m/n/10  \U/msb/m/n/10.03749 1\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 S \OT1/c
 mr/m/n/10 = [] \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 j; k\OMS/cmsy/m/n/10 ih\OML/c
@@ -397,9 +397,13 @@ m/m/it/10 j\OMS/cmsy/m/n/10 i[]
 
 
 LaTeX Warning: Citation `Quantum Google in a Complex Network' on page 6 undefin
-ed on input line 815.
+ed on input line 818.
 
-(C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl [6])
+
+LaTeX Warning: Citation `Quantum Algorithms for Element Distinctness Buhrman' o
+n page 6 undefined on input line 820.
+
+[6] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -419,10 +423,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2160 strings out of 495354
- 33371 string characters out of 3183130
+ 2161 strings out of 495354
+ 33424 string characters out of 3183130
  92869 words of memory out of 3000000
- 5345 multiletter control sequences out of 15000+200000
+ 5346 multiletter control sequences out of 15000+200000
  41428 words of font info for 79 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
  27i,11n,24p,3073b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -432,16 +436,16 @@ KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Applications/CTEX/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmmi7.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmr10.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr7.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/App
-lications/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Applic
-ations/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Applications/CTEX/MiKTe
-X/fonts/type1/urw/times/utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/ur
-w/times/utmr8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on mypaper.pdf (7 pages, 177861 bytes).
+/cmr5.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Appl
+ications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Applications/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Applications/CTE
+X/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/ty
+pe1/urw/times/utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/ut
+mr8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on mypaper.pdf (7 pages, 187836 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

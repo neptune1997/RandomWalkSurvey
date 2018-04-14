@@ -801,7 +801,7 @@ The author exploit the idea of discrete time quantum walk. Hence we have to defi
 \begin{equation}
 \mathcal{H_{c}} = span\{\vert L\rangle ,\vert R\rangle\}
 \end{equation}
-However the hilbert space $\mathcal{H_{p}} $here is a little tricky. Since the page rank algorithm is on a graph, the author define the Hilbert space as the space of oriented edges.
+However the Hilbert space $\mathcal{H_{p}} $here is a little tricky. Since the page rank algorithm is on a graph, the author define the Hilbert space as the space of oriented edges.
 \begin{equation}
 \mathcal{H_{p}} = span\{ \vert i \rangle_{1},\vert j\rangle_{2} \quad\vert \quad i,j \in N\}
 \end{equation}
@@ -816,8 +816,8 @@ S=\sum_{i,k=1}^{N} \vert j,k\rangle \langle  k,j\vert
 \end{equation}
 Where $G_{ij}$ means the weight of edge ij.\\
 The authors apply quantum page rank algorithm on small generated network to have a insight of the behavior of it. They find that the quantum pagerank algorithm obtain a larger score than the classical value.  In the meanwhile, the quantum algorithm break down the hierarchy of classical values. The author also look into the properties of quantum page rank algorithm in complex real-world network\cite{Quantum Google in a Complex Network}. The authors find that  quantum page rank algorithm can reveal the underlying topology of the network more univocally with repect to classical page rank algorithm.  The ability of detecting hub for network is enhanced with respect to classical counterpart.
-
-
+\subsection{element distinctness}
+We introduce the element distinctness problem first. Element distinctness problem is to tell whether all the elements in a given sequence are distinct. More precisely, $M={x_{i},i\in N}$, are there $x_{i} \in M and x_{j} in M$ and $i \neq j$ such that $x_{i}=x_{j}$? There is a simple classical algorithm to solve this problem with $Nlog(N)+O(N)$ comparisons. Buhrman et al. present an quantum algorithm to speedup\cite{Quantum Algorithms for Element Distinctness Buhrman}.
 \section{Conclusion}
 The conclusion goes here.
 

@@ -47,6 +47,10 @@ White space in argument---line 46 of file mypaper.aux
  : \citation{Quantum
  :                   Google in a Complex Network}
 I'm skipping whatever remains of this command
+White space in argument---line 47 of file mypaper.aux
+ : \citation{Quantum
+ :                   Algorithms for Element Distinctness Buhrman}
+I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: refer.bib
 I was expecting a `,' or a `}'---line 63 of file refer.bib
@@ -65,4 +69,4 @@ Warning--empty journal in azran2007the
 Warning--empty journal in tishby2001data
 
 Done.
-(There were 13 error messages)
+(There were 14 error messages)
