@@ -103,6 +103,7 @@
 
 \usepackage{verbatim}
 \usepackage{amsmath}
+\usepackage{amssymb}
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of the IEEE. Loading the cite package will
@@ -724,9 +725,9 @@ path integrals.] in 1966. In the field of quantum computation, Meyer rediscovere
 
 lattice gases.][On the absence of homogeneous scalar unitary
 cellular automata ]. we define a space $H=H_{p}\bigotimes  H_{c}$ for one dimensional quantum walk, . $H_{p}$ denotes Hilbert space.  For one dimensional Hilbert space, it can be represented as follows.
-
-$H_{p}=\lbrace \vert i\rangle : i \in Z\rbrace$
-
+\begin{equation}
+H_{p}=\lbrace \vert i\rangle : i \in Z\rbrace
+\end{equation}
 ${H_{c}}$  is spanned by two basic states  $\lbrace \vert\uparrow  \rangle,\vert \downarrow\rangle \rbrace$.  Operation $S$ defines the translation on space $H$.
 \begin{equation}
 S =\vert \uparrow\rangle\langle\uparrow\vert\otimes\sum_{i}{\vert i+1\rangle\langle i \vert +\vert\downarrow\rangle\langle \downarrow\vert \otimes\sum_{i}{\vert i-1\rangle}}\langle i \vert
@@ -759,7 +760,7 @@ The original purpose of  continuous time quantum walk is  to speed up many a alg
 P(t) = exp(-Ht)P(0)
 \end{equation}. Similarly, the unitary time evolution operator of continuous time quantum walk is
 
-\begin{equation}\label{unitary}
+\begin{equation}\label{unitaryo}
 \hat{U}(t)=exp(-i\hat{H}t)
 \end{equation}
 
@@ -770,14 +771,52 @@ P(t) = exp(-Ht)P(0)
 
 \subsection{Algorithms based on Quantum walk}
 
+
+
+
 \subsubsection{quantum decision tree algorithm}
 \par
-Fahri\cite{Quantum Computation and Decision Trees} originally presented the idea of continuous time quantum walk with the example of decision tree algorithm. He chooses the approach that systematically exploring the whole tree with a probabilistic rule. The author wants that the n-level nodes can be reach in polynomial time with a considerable probability. A tree is penetrable when its node or nodes in n-level meet the requirement above. If a tree is penetrable for an specific algorithm, we believe that the problem corresponding to the decision tree is solvable with this algorithm in polynomial time. 
+Fahri\cite{Quantum Computation and Decision Trees} originally presented the idea of continuous time quantum walk with the example of decision tree algorithm. He chooses the approach that systematically exploring the whole tree with a probabilistic rule. The author wants that the n-level nodes can be reach in polynomial time with a considerable probability. A tree is penetrable when its node or nodes in n-level meet the requirement above. If a tree is penetrable for an specific algorithm, we believe that the problem corresponding to the decision tree is solvable with this algorithm in polynomial time.
 The author present the quantum walk algorithm for decision tree with following intuition.
-He considers decision tree nodes as quantum states in Hilbert space. Then He construct a Hamiltonian $\hat{H}$ which determines the time evolution of the quantum system. With the basis of Hamiltonian, The author presented the unitary time evolution operator shown in \ref{unitary}. The author compare quantum walk decision tree algorithm with classical counterpart, and find that there is a family of trees which are both classical penetrable and quantum penetrable. However, Some decision trees is quantum penetrable but not classical penetrable. With these findings, the author draw to the conclusion that quantum algorithms are more faster than the classical decision tree algorithms with respect to some decision tree problems. 
+He considers decision tree nodes as quantum states in Hilbert space. Then He constructs a Hamiltonian $\hat{H}$ which determines the time evolution of the quantum system. With the basis of Hamiltonian, The author presented the unitary time evolution operator shown in \ref{unitaryo}. The author compare quantum walk decision tree algorithm with classical counterpart, and find that there is a family of trees which are both classical penetrable and quantum penetrable. However, Some decision trees is quantum penetrable but not classical penetrable. With these findings, the author draw the conclusion that quantum algorithms are more faster with respect to the classical decision tree algorithms for some decision tree problems.
+\subsubsection{Traversal quantum algorithm}
+
+
 
 \subsubsection{Quantum page rank algorithm }
 page rank algorithm is one of the most important random walk algorithms. When quantum computation is widely considered in the era of random walk, it is natural and inevitable to apply quantum computation on page rank algorithm.
+There are many literature  of quantum networks\cite{The DARPA quantum network}\cite{Outline of the SECOQC quantum-keydistribution
+network in Vienna}\cite{Tokyo Quantum Network 2010}\cite{Swiss Quantum Network}\cite{QKD in standard optical telecommunications networks}\cite{Standardization of quantum key distribution. and the ETSI standardization initiative}. In order to study the behavior of pagerank algorithm on the quantum network, the authors present the quantum page rank algorithm\cite{Google in a quantum network}. However, the authors don't give a specific defination of quantum page rank algorithms, but give a admissible class shown as follows.
+
+P1: The classical PageRank must be embedded into the quantum class with its undirected graph structure preserved.
+
+P2: The sum of all quantum PageRanks must equal to 1.
+
+P3: The quantum PageRank obey a quantized Markov Chain (MC) rules.
+
+P4: The classical algorithm to compute the quantum PageRank is also feasible.
+
+The author exploit the idea of discrete time quantum walk. Hence we have to define the coin space $\mathcal{H_{c}}$and hilbert space $\mathcal{H_{p}}$ which are mentioned in the section of discrete time quantum walk. The definition of coin space is similar to the one dimension quantum walk.
+
+\begin{equation}
+\mathcal{H_{c}} = span\{\vert L\rangle ,\vert R\rangle\}
+\end{equation}
+However the hilbert space $\mathcal{H_{p}} $here is a little tricky. Since the page rank algorithm is on a graph, the author define the Hilbert space as the space of oriented edges.
+\begin{equation}
+\mathcal{H_{p}} = span\{ \vert i \rangle_{1},\vert j\rangle_{2} \quad\vert \quad i,j \in N\}
+\end{equation}
+where N denotes the all the  vertices of the graph.  Since the edge is oriented, We use the subscript 1,2 to show the direction.
+
+With these defination and the method of Szegedy¡¯s Quantization of Markov Chains \cite{Quantization of Markov Chains} We can present the unitatry step operator of quantum walk as follows.
+\begin{equation}
+U =S(2\prod - \mathbb{1})
+S=\sum_{i,k=1}^{N} \vert j,k\rangle \langle  k,j\vert
+\prod := \sum_{j=1}^{N} \vert \psi_{j} \rangle \langle \psi_{j}\vert
+\vert\psi_{j}\rangle = \vert j\rangle_{1} \otimes \sum_{k=1}^{N} \sqrt{G_{kj}}\vert k\rangle_{2}
+\end{equation}
+Where $G_{ij}$ means the weight of edge ij.\\
+The authors apply quantum page rank algorithm on small generated network to have a insight of the behavior of it. They find that the quantum pagerank algorithm obtain a larger score than the classical value.  In the meanwhile, the quantum algorithm break down the hierarchy of classical values. The author also look into the properties of quantum page rank algorithm in complex real-world network\cite{Quantum Google in a Complex Network}. The authors find that  quantum page rank algorithm can reveal the underlying topology of the network more univocally with repect to classical page rank algorithm.  The ability of detecting hub for network is enhanced with respect to classical counterpart.
+
 
 \section{Conclusion}
 The conclusion goes here.

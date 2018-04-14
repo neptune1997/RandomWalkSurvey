@@ -44,5 +44,7 @@
 
 21. scenario
 
-22. ​
+22. manifestation
+
+23. collision
 

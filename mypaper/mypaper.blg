@@ -11,6 +11,42 @@ White space in argument---line 37 of file mypaper.aux
  : \citation{Quantum
  :                   Computation and Decision Trees}
 I'm skipping whatever remains of this command
+White space in argument---line 38 of file mypaper.aux
+ : \citation{The
+ :               DARPA quantum network}
+I'm skipping whatever remains of this command
+White space in argument---line 39 of file mypaper.aux
+ : \citation{Outline
+ :                   of the SECOQC quantum-keydistribution network in Vienna}
+I'm skipping whatever remains of this command
+White space in argument---line 40 of file mypaper.aux
+ : \citation{Tokyo
+ :                 Quantum Network 2010}
+I'm skipping whatever remains of this command
+White space in argument---line 41 of file mypaper.aux
+ : \citation{Swiss
+ :                 Quantum Network}
+I'm skipping whatever remains of this command
+White space in argument---line 42 of file mypaper.aux
+ : \citation{QKD
+ :               in standard optical telecommunications networks}
+I'm skipping whatever remains of this command
+White space in argument---line 43 of file mypaper.aux
+ : \citation{Standardization
+ :                           of quantum key distribution. and the ETSI standardization initiative}
+I'm skipping whatever remains of this command
+White space in argument---line 44 of file mypaper.aux
+ : \citation{Google
+ :                  in a quantum network}
+I'm skipping whatever remains of this command
+White space in argument---line 45 of file mypaper.aux
+ : \citation{Quantization
+ :                        of Markov Chains}
+I'm skipping whatever remains of this command
+White space in argument---line 46 of file mypaper.aux
+ : \citation{Quantum
+ :                   Google in a Complex Network}
+I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: refer.bib
 I was expecting a `,' or a `}'---line 63 of file refer.bib
@@ -29,4 +65,4 @@ Warning--empty journal in azran2007the
 Warning--empty journal in tishby2001data
 
 Done.
-(There were 4 error messages)
+(There were 13 error messages)

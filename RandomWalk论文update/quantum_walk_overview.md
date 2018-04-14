@@ -112,7 +112,7 @@ Kempe et al[quantum random walks - an introductory overvew] presented us two kin
 
    $\mathcal{H_{p}} = span\{ \vert i \rangle_{1},\vert j\rangle_{2} \quad\vert \quad i,j \in N\}$
 
-   where N denotes the all the  vertices of the graph. 
+   where N denotes the all the  vertices of the graph.  Since the edge is oriented, We use the subscript 1,2 to show the direction. 
 
    With these defination and the method of Szegedy’s Quantization of Markov Chains \cite{Quantization of Markov Chains} We can present the unitatry step operator of quantum walk as follows. 
 
@@ -126,6 +126,12 @@ Kempe et al[quantum random walks - an introductory overvew] presented us two kin
 
    Where $G_{ij}$ means the weight of edge ij.
 
+   ​
+
+   The authors apply quantum page rank algorithm on small generated network to have a insight of the behavior of it. They find that the quantum pagerank algorithm obtain a larger score than the classical value.  In the meanwhile, the quantum algorithm break down the hierarchy of classical values. The author also look into the properties of quantum page rank algorithm in complex real-world network\cite{Quantum Google in a Complex Network}.  The authors find that  quantum page rank algorithm can reveal the underlying topology of the network more univocally with repect to classical page rank algorithm.  The ability of detecting hub for network is enhanced with respect to classical counterpart. 
+
+   ​
+
    __Quantum Google in a Complex Network__(2013):
 
    Apply the quantum walk algorithm to the real-world network,and find some interesting properties of the quantum page rank algorithms.
@@ -134,5 +140,34 @@ Kempe et al[quantum random walks - an introductory overvew] presented us two kin
      to identify and order the most relevant nodes.
    - Furthermore, it is capable to clearly highlight the structure of
      secondary hubs and to resolve the degeneracy in importance of the low lying part of the list of ranking
+
+   __An example of the difference between quantum and classical random walks__ (2001)
+
+   The author show us an example which illustrate the different property between quantum random walk and classical random walk. They find that propagation between the nodes is exponentially faster in quantum random walks with respect to classical random walks. 
+
+   __Exponential Algorithmic Speedup by a Quantum Walk__ (2003)
+
+   The author devise a quantum algorithm based on continuous time random walk to solve a black box tranversal problem with exponentially shorter time with repspect to algorithms on the classical computer. 
+
+   Introduction
+
+   - faster is the primary goal of the field of quantum computation. 
    - ​
+
+   __Universal computation by quantum walk__(2008)
+
+   ​
+
+   __algorithm for element distinctness__(2004)
+
+   ​
+
+   __algorithm for element distinctness__(2001)
+
+   Burhman
+
+   ​
+
+
+
 
