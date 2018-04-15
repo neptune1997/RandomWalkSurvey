@@ -1,61 +1,95 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: mypaper.aux
-White space in argument---line 11 of file mypaper.aux
- : \citation{A
- :             Random Walks View of Spectral Segmentation}
-I'm skipping whatever remains of this command
-White space in argument---line 12 of file mypaper.aux
+White space in argument---line 13 of file mypaper.aux
  : \citation{von
  :               luxburg2007a}
 I'm skipping whatever remains of this command
-White space in argument---line 37 of file mypaper.aux
- : \citation{Quantum
- :                   Computation and Decision Trees}
+Case mismatch error between cite keys Brand2005A and brand2005a
+---line 46 of file mypaper.aux
+ : \citation{Brand2005A
+ :                     }
 I'm skipping whatever remains of this command
-White space in argument---line 38 of file mypaper.aux
- : \citation{The
- :               DARPA quantum network}
+Case mismatch error between cite keys Woodruff2000Enhancing and woodruff2000enhancing
+---line 57 of file mypaper.aux
+ : \citation{Woodruff2000Enhancing
+ :                                }
 I'm skipping whatever remains of this command
-White space in argument---line 39 of file mypaper.aux
- : \citation{Outline
- :                   of the SECOQC quantum-keydistribution network in Vienna}
+Case mismatch error between cite keys Mcnee2002On and mcnee2002on
+---line 58 of file mypaper.aux
+ : \citation{Mcnee2002On
+ :                      }
 I'm skipping whatever remains of this command
-White space in argument---line 40 of file mypaper.aux
- : \citation{Tokyo
- :                 Quantum Network 2010}
+Case mismatch error between cite keys Qiu2005Image and qiu2005image
+---line 64 of file mypaper.aux
+ : \citation{Qiu2005Image
+ :                       }
 I'm skipping whatever remains of this command
-White space in argument---line 41 of file mypaper.aux
- : \citation{Swiss
- :                 Quantum Network}
+Case mismatch error between cite keys Qiu2005Image and qiu2005image
+---line 67 of file mypaper.aux
+ : \citation{Qiu2005Image
+ :                       }
 I'm skipping whatever remains of this command
-White space in argument---line 42 of file mypaper.aux
- : \citation{QKD
- :               in standard optical telecommunications networks}
-I'm skipping whatever remains of this command
-White space in argument---line 43 of file mypaper.aux
- : \citation{Standardization
- :                           of quantum key distribution. and the ETSI standardization initiative}
-I'm skipping whatever remains of this command
-White space in argument---line 44 of file mypaper.aux
- : \citation{Google
- :                  in a quantum network}
-I'm skipping whatever remains of this command
-White space in argument---line 45 of file mypaper.aux
- : \citation{Quantization
- :                        of Markov Chains}
-I'm skipping whatever remains of this command
-White space in argument---line 46 of file mypaper.aux
- : \citation{Quantum
- :                   Google in a Complex Network}
-I'm skipping whatever remains of this command
-White space in argument---line 47 of file mypaper.aux
- : \citation{Quantum
- :                   Algorithms for Element Distinctness Buhrman}
+Case mismatch error between cite keys Azran2007The and azran2007the
+---line 73 of file mypaper.aux
+ : \citation{Azran2007The
+ :                       }
 I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: refer.bib
 I was expecting a `,' or a `}'---line 63 of file refer.bib
  : @article{von 
  :              luxburg2007a,
+I'm skipping whatever remains of this entry
+Repeated entry---line 124 of file refer.bib
+ : @article{Page1998The
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 184 of file refer.bib
+ : @article{Meila2001A
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 199 of file refer.bib
+ : @article{Woodruff2000Enhancing
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 206 of file refer.bib
+ : @inproceedings{Mcnee2002On
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 229 of file refer.bib
+ : @article{Brand2005A
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 263 of file refer.bib
+ : @inproceedings{Azran2007The
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 270 of file refer.bib
+ : @inproceedings{Szummer2001Partially
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 321 of file refer.bib
+ : @article{Kempe2003Quantum
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 417 of file refer.bib
+ : @inproceedings{Qiu2005Image
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 431 of file refer.bib
+ : @book{Qiu2006Robust
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 505 of file refer.bib
+ : @book{Liben2007The
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 512 of file refer.bib
+ : @article{Katz1953A
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 554 of file refer.bib
+ : @article{Kempe2003Quantum
+ :                          ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
@@ -67,6 +101,9 @@ Warning--empty journal in zhu2003semi-supervised
 Warning--empty journal in szummer2002partially
 Warning--empty journal in azran2007the
 Warning--empty journal in tishby2001data
+Warning--empty journal in Aldous2002Reversible
+Warning--empty booktitle in Adomavicius2008Recommendation
+Warning--empty journal in Elliott2004The
 
 Done.
-(There were 14 error messages)
+(There were 21 error messages)

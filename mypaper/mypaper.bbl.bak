@@ -123,7 +123,7 @@ B.~H. Bloom, \emph{Space/time trade-offs in hash coding with allowable
 
 \bibitem{Broder2000Min}
 A.~Z. Broder, M.~Charikar, A.~M. Frieze, and M.~Mitzenmacher, ``Min-wise
-  independent permutations,'' \emph{Journal of Computer \& System Sciences},
+  independent permutations,'' \emph{Journal of Computer & System Sciences},
   vol.~60, no.~3, pp. 630--659, 2000.
 
 \bibitem{Najork2009Less}
@@ -164,35 +164,6 @@ D.~Aldous and J.~A. Fill, ``Reversible markov chains and random walks on
 L.~Lovász, L.~Lov, and O.~P. Erdos, ``Random walks on graphs: A survey,''
   \emph{Combinatorics}, vol.~8, no.~4, pp. 1--46, 1993.
 
-\bibitem{Adomavicius2008Recommendation}
-G.~Adomavicius and A.~Tuzhilin, ``Recommendation technologies: Survey of
-  current methods and possible extensions,'' 2008.
-
-\bibitem{Resnick1994GroupLens}
-P.~Resnick, N.~Iacovou, M.~Suchak, P.~Bergstrom, and J.~Riedl, ``Grouplens:an
-  open architecture for collaborative filtering of netnews,'' in \emph{ACM
-  Conference on Computer Supported Cooperative Work}, 1994, pp. 175--186.
-
-\bibitem{Sarkar2012A}
-P.~Sarkar and A.~Moore, ``A tractable approach to finding closest
-  truncated-commute-time neighbors in large graphs,'' \emph{Proc Uai}, 2012.
-
-\bibitem{Liu2017Inferring}
-Y.~Liu, X.~Zeng, Z.~He, and Z.~Quan, ``Inferring microrna-disease associations
-  by random walk on a heterogeneous network with multiple data sources,''
-  \emph{IEEE/ACM Transactions on Computational Biology \& Bioinformatics},
-  vol.~PP, no.~99, pp. 1--1, 2017.
-
-\bibitem{Gori2007Research}
-M.~Gori and A.~Pucci, ``Research paper recommender systems: A random-walk based
-  approach,'' in \emph{Ieee/wic/acm International Conference on Web
-  Intelligence}, 2007, pp. 778--781.
-
-\bibitem{Xia2016Scientific}
-F.~Xia, H.~Liu, I.~Lee, and L.~Cao, ``Scientific article recommendation:
-  Exploiting common author relations and historical preferences,'' \emph{IEEE
-  Transactions on Big Data}, vol.~2, no.~2, pp. 101--112, 2016.
-
 \bibitem{Gorelick2006Shape}
 L.~Gorelick, M.~Galun, E.~Sharon, R.~Basri, and A.~Brandt, ``Shape
   representation and classification using the poisson equation,'' \emph{IEEE
@@ -209,6 +180,35 @@ H.~Qiu and E.~R. Hancock, \emph{Robust Multi-body Motion Tracking Using Commute
   Time Clustering}.\hskip 1em plus 0.5em minus 0.4em\relax Springer Berlin
   Heidelberg, 2006.
 
+\bibitem{Adomavicius2008Recommendation}
+G.~Adomavicius and A.~Tuzhilin, ``Recommendation technologies: Survey of
+  current methods and possible extensions,'' 2008.
+
+\bibitem{Resnick1994GroupLens}
+P.~Resnick, N.~Iacovou, M.~Suchak, P.~Bergstrom, and J.~Riedl, ``Grouplens:an
+  open architecture for collaborative filtering of netnews,'' in \emph{ACM
+  Conference on Computer Supported Cooperative Work}, 1994, pp. 175--186.
+
+\bibitem{Sarkar2012A}
+P.~Sarkar and A.~Moore, ``A tractable approach to finding closest
+  truncated-commute-time neighbors in large graphs,'' \emph{Proc Uai}, 2012.
+
+\bibitem{Liu2017Inferring}
+Y.~Liu, X.~Zeng, Z.~He, and Z.~Quan, ``Inferring microrna-disease associations
+  by random walk on a heterogeneous network with multiple data sources,''
+  \emph{IEEE/ACM Transactions on Computational Biology & Bioinformatics},
+  vol.~PP, no.~99, pp. 1--1, 2017.
+
+\bibitem{Gori2007Research}
+M.~Gori and A.~Pucci, ``Research paper recommender systems: A random-walk based
+  approach,'' in \emph{Ieee/wic/acm International Conference on Web
+  Intelligence}, 2007, pp. 778--781.
+
+\bibitem{Xia2016Scientific}
+F.~Xia, H.~Liu, I.~Lee, and L.~Cao, ``Scientific article recommendation:
+  Exploiting common author relations and historical preferences,'' \emph{IEEE
+  Transactions on Big Data}, vol.~2, no.~2, pp. 101--112, 2016.
+
 \bibitem{Zhu2003Semi}
 X.~Zhu, ``Semi-supervised learning using gaussian fields and harmonic
   functions,'' \emph{Proc Icml}, pp. 912--919, 2003.
@@ -223,22 +223,9 @@ N.~Tishby and N.~Slonim, ``Data clustering by markovian relaxation and the
   information bottleneck method,'' in \emph{International Conference on Neural
   Information Processing Systems}, 2000, pp. 368--377.
 
-\bibitem{Venegas2012Quantum}
-S.~Venegas-Andraca, ``Quantum walks: A comprehensive review,'' \emph{Quantum
-  Information Processing}, vol.~11, no.~5, pp. 1015--1106, 2012.
-
 \bibitem{Kempe2003Quantum}
 J.~Kempe, ``Quantum random walks: an introductory overview,''
   \emph{Contemporary Physics}, vol.~50, no.~1, pp. 339--359, 2003.
-
-\bibitem{Brun2002Quantum}
-T.~A. Brun, H.~A. Carteret, and A.~Ambainis, ``Quantum to classical transition
-  for random walks,'' \emph{Physical Review Letters}, vol.~91, no.~13, p.
-  130602, 2002.
-
-\bibitem{Aharonov1993Quantum}
-Y.~Aharonov, L.~Davidovich, and N.~Zagury, ``Quantum random walks,''
-  \emph{Physical Review A}, vol.~48, no.~2, p. 1687, 1993.
 
 \bibitem{Feynman1965Quantum}
 R.~P. Feynman and A.~R. Hibbs, ``Quantum mechanics and path integrals

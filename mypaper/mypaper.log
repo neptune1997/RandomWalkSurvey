@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  14 APR 2018 21:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  15 APR 2018 15:04
 entering extended mode
 **C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
 (C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
@@ -218,33 +218,29 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 398.
 
 
-LaTeX Warning: Citation `A Random Walks View of Spectral Segmentation' on page 
-1 undefined on input line 434.
+LaTeX Warning: Citation `von luxburg2007a' on page 1 undefined on input line 42
+9.
 
-
-LaTeX Warning: Citation `von luxburg2007a' on page 1 undefined on input line 43
-4.
-
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 55
-1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 551.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 54
+6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 546.
 (D:\Applications\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 551.
+LaTeX Font Info:    Try loading font information for U+msb on input line 546.
 
 (D:\Applications\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Underfull \vbox (badness 7186) has occurred while \output is active []
 
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
  [1{D:/Applications/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sf
 d}}
 
 
 ]
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ° in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
@@ -253,6 +249,40 @@ Missing character: There is no £ in font ptmr7t!
 Missing character: There is no º in font ptmr7t!
 
 [2]
+
+LaTeX Warning: Citation `Brand2005A' on page 3 undefined on input line 676.
+
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+[3]
+
+LaTeX Warning: Citation `Woodruff2000Enhancing' on page 4 undefined on input li
+ne 694.
+
+
+LaTeX Warning: Citation `Mcnee2002On' on page 4 undefined on input line 695.
+
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
@@ -263,76 +293,21 @@ Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
- [3]
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--703
-[]\OT1/ptm/m/n/10.03749 Much lit-er-a-ture has record-ed meth-od-s of
- []
-
-
-Underfull \hbox (badness 5652) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 col-lab-o-ra-tive fil-ter-ing, with suc-cess-ful demon-st
-ra-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 of Bayesian, non-para-met-ric, lin-ear meth-od-s etc.[
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 Ged-im-i-nas Ado-mavi-cius and Alexan-der Tuzhilin.
- []
-
-
-Underfull \hbox (badness 3815) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 and pos-si-ble ex-ten-sion-s. MIS-R-C work-ing pa-per 03-
-
- []
-
-
-Overfull \hbox (17.22105pt too wide) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 29,http://misrc.umn.edu/workingpapers/abstracts/0329.aspx
-,May
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 on max-i-miz-ing sat-is-fac-tion and prof-it] in-tro-duce
-d a
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 ap-pli-ca-tion to col-lab-o-ra-tive rec-om-men-da-tion] a
-l-so use
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 rec-om-men-da-tion. For bet-ter un-der-stand-ing, the au-
-thor
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 696--703
-\OT1/ptm/m/n/10.03749 database. These el-e-ments are not nec-es-sar-i-ly di-rec
-t-ly
- []
+LaTeX Warning: Citation `Qiu2005Image' on page 4 undefined on input line 701.
 
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
+
+LaTeX Warning: Citation `Qiu2005Image' on page 4 undefined on input line 701.
+
 [4]
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+
+
+LaTeX Warning: Citation `Azran2007The' on page 5 undefined on input line 713.
+
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
@@ -345,46 +320,11 @@ Missing character: There is no ¯ in font ptmr7t!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-
-LaTeX Warning: Citation `Quantum Computation and Decision Trees' on page 6 unde
-fined on input line 779.
-
-
-LaTeX Warning: Citation `The DARPA quantum network' on page 6 undefined on inpu
-t line 788.
-
-
-LaTeX Warning: Citation `Outline of the SECOQC quantum-keydistribution network 
-in Vienna' on page 6 undefined on input line 789.
-
-
-LaTeX Warning: Citation `Tokyo Quantum Network 2010' on page 6 undefined on inp
-ut line 789.
-
-
-LaTeX Warning: Citation `Swiss Quantum Network' on page 6 undefined on input li
-ne 789.
-
-
-LaTeX Warning: Citation `QKD in standard optical telecommunications networks' o
-n page 6 undefined on input line 789.
-
-
-LaTeX Warning: Citation `Standardization of quantum key distribution. and the E
-TSI standardization initiative' on page 6 undefined on input line 789.
-
-
-LaTeX Warning: Citation `Google in a quantum network' on page 6 undefined on in
-put line 789.
-
+[6]
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 
-LaTeX Warning: Citation `Quantization of Markov Chains' on page 6 undefined on 
-input line 810.
-
-
-Overfull \hbox (106.88382pt too wide) detected at line 816
+Overfull \hbox (106.88382pt too wide) detected at line 810
 \OML/cmm/m/it/10 U \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (2 [] \O
 MS/cmsy/m/n/10  \U/msb/m/n/10.03749 1\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 S \OT1/c
 mr/m/n/10 = [] \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 j; k\OMS/cmsy/m/n/10 ih\OML/c
@@ -395,15 +335,14 @@ m/m/it/10 j\OMS/cmsy/m/n/10 i[]
  [] []j\OML/cmm/m/it/10 k\OMS/cmsy/m/n/10 i[]
  []
 
-
-LaTeX Warning: Citation `Quantum Google in a Complex Network' on page 6 undefin
-ed on input line 818.
-
-
-LaTeX Warning: Citation `Quantum Algorithms for Element Distinctness Buhrman' o
-n page 6 undefined on input line 820.
-
-[6] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl)
+(C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl [7]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¤ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+ [8])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -415,7 +354,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
+[9
 
 ] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.aux)
 
@@ -423,13 +362,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2161 strings out of 495354
- 33424 string characters out of 3183130
- 92869 words of memory out of 3000000
- 5346 multiletter control sequences out of 15000+200000
+ 2203 strings out of 495354
+ 33879 string characters out of 3183130
+ 95869 words of memory out of 3000000
+ 5388 multiletter control sequences out of 15000+200000
  41428 words of font info for 79 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 27i,11n,24p,3073b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,11n,24p,3111b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Applications/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/Applications
 /CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Applications/CTEX/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Applications/CTEX/MiKTeX/fon
@@ -443,9 +382,9 @@ CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Applications/CTE
 X/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/ty
 pe1/urw/times/utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/ut
 mr8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mypaper.pdf (7 pages, 187836 bytes).
+Output written on mypaper.pdf (9 pages, 201239 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -48,3 +48,7 @@
 
 23. collision
 
+24. inevitable
+
+25. ​
+
