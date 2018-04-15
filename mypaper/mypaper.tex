@@ -400,7 +400,7 @@ Fax: (888) 555--1212}}
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-The abstract goes here.
+Random walk has been widely used in the computer science community. Many researchers have exploit random walk approach achieving great result in almost all the area of computer science. This paper present a survey of random walk in computer science. We introduce important classical proximity measures and algorithms based on random walk. We also present a quantum view of random walk. We also illustrate different behaviour and properties between random walk and quantum walk. Finally, we discuss the chanllenges we are facing when we exploit random approaches.
 \end{abstract}
 
 % no keywords
@@ -810,22 +810,25 @@ where N denotes the all the  vertices of the graph.  Since the edge is oriented,
 
 With these defination and the method of Szegedy¡¯s Quantization of Markov Chains \cite{Richter2008Quantization} We can present the unitatry step operator of quantum walk as follows.
 \begin{equation}
-U =S(2\prod - \mathbb{1})
-S=\sum_{i,k=1}^{N} \vert j,k\rangle \langle  k,j\vert
-\prod := \sum_{j=1}^{N} \vert \psi_{j} \rangle \langle \psi_{j}\vert
-\vert\psi_{j}\rangle = \vert j\rangle_{1} \otimes \sum_{k=1}^{N} \sqrt{G_{kj}}\vert k\rangle_{2}
+\begin{aligned}
+U &=S(2\prod - \mathbb{1})
+S &=\sum_{i,k=1}^{N} \vert j,k\rangle \langle  k,j\vert
+\prod &= \sum_{j=1}^{N} \vert \psi_{j} \rangle \langle \psi_{j}\vert
+\vert\psi_{j}\rangle &= \vert j\rangle_{1} \otimes \sum_{k=1}^{N} \sqrt{G_{kj}}\vert k\rangle_{2}
+\end{aligned}
 \end{equation}
 Where $G_{ij}$ means the weight of edge ij.\\
 The authors apply quantum page rank algorithm on small generated network to have a insight of the behavior of it. They find that the quantum pagerank algorithm obtain a larger score than the classical value.  In the meanwhile, the quantum algorithm break down the hierarchy of classical values. The author also look into the properties of quantum page rank algorithm in complex real-world network\cite{paparo2013quantum}. The authors find that  quantum page rank algorithm can reveal the underlying topology of the network more univocally with repect to classical page rank algorithm.  The ability of detecting hub for network is enhanced with respect to classical counterpart.
 \subsubsection{element distinctness}
 We introduce the element distinctness problem first. Element distinctness problem is to tell whether all the elements in a given sequence are distinct. More precisely, $M={x_{i},i\in N}$, are there $x_{i} \in M and x_{j} in M$ and $i \neq j$ such that $x_{i}=x_{j}$? There is a simple classical algorithm to solve this problem with $Nlog(N)+O(N)$ comparisons. Buhrman et al. present an quantum algorithm to speedup\cite{buhrman2000quantum}. Their algorithm give a upper bound $O(N^{\frac{3}{4}}log(N))$. Ambainis improve the quantum way to solve element distinctness with $O(N^{\frac{2}{3}})$ comparisons. The intuition of this optimal quantum algorithm is to construct a graph, and transform the element distinctness problem to finding a marked vertex in the graph. In order to search marked vertex efficiently, the author improve the Grover's quantum search algorithm\cite{brassard2000quantum}\cite{grover1996a}. The author reuse the information that queries before and search a marked vertex with $O(N^{\frac{2}{3}})$ comparisons instead of $O(N)$ comparisons in Grover's search algorithm.
 \section{Conclusion}
-In this paper, we introduce the random walk and quantum walk from a perspective of computer scientists. We get to know some prerequisite knowledge of understanding proximity measures based on the random walk first. Then we discuss about some classical proximity measure in a comprehensive way. Some complex variants of proximity measures we don't pay much attention to, but they won't be obstacles for us to have a whole picture of proximity measures based on random walk in our mind. With a map of proximity measures, we can find a clear path through the forest of random walk algorithms. We talk about proximity based algorithms like link prediction algorithms, collaborative filtering algorithms, and recommending systems. There are also some machine learning problems that can be well solved from a random walk view. In the field of computer vision, random walk help to solve the problem of graph segmentation. In semi-supervised learning, random walk is also a effective approach. With the development of quantum computation and quantum information, it is necessary to introduce a quantum view of random walk. In case we are lost in the tricky concepts of quantum quantum mechanism, we first introduce discrete-time quantum walk and continuous-time quantum walk  with simple one dimensional examples. Then we have discuss about the classical applications of quantum walks. It is exciting to find that there are many different properties and behaviours between random walk and quantum walk. We also introduce some examples that quantum walk approach can gain a remarkable speedup. There are also an important part that we missed. We don't talk much about the performance of random walk in practical problems. 
+In this paper, we introduce the random walk and quantum walk from a perspective of computer scientists. We get to know some prerequisite knowledge of understanding proximity measures based on the random walk first. Then we discuss about some classical proximity measure in a comprehensive way. Some complex variants of proximity measures we don't pay much attention to, but they won't be obstacles for us to have a whole picture of proximity measures based on random walk in our mind. With a map of proximity measures, we can find a clear path through the forest of random walk algorithms. We talk about proximity based algorithms like link prediction algorithms, collaborative filtering algorithms, and recommending systems. There are also some machine learning problems that can be well solved from a random walk view. In the field of computer vision, random walk help to solve the problem of graph segmentation. In semi-supervised learning, random walk is also a effective approach. With the development of quantum computation and quantum information, it is necessary to introduce a quantum view of random walk. In case we are lost in the tricky concepts of quantum quantum mechanism, we first introduce discrete-time quantum walk and continuous-time quantum walk  with simple one dimensional examples. Then we have discuss about the classical applications of quantum walks. It is exciting to find that there are many different properties and behaviours between random walk and quantum walk. We also introduce some examples that quantum walk approach can gain a remarkable speedup. There are also an important part that we missed. We don't look into the performance of random walk in practical problems.
 \section{open issues}
-
-
-
-
+We are in the era of information explosion. We produce so many data every day. Hence the real-world network is so giant. When we apply random walk on the giant complex real-word network, there are two challenges in front of us. The first one the speed of the random walk algorithms. The second one is the main-memory volume.
+\subsection{speed of random walk algorithms}
+The time complexity of graph random walk kernel is at least $O(n^{3})$ or $O(m^{2})$ for graph with n nodes and m edges.\cite{Kang2012Fast} In an artificially generated graph, this time complexity is acceptable, but in a giant graph it is a disaster. There are already researchers coping with this issue. Kang et al. \cite{Kang2012Fast} propose ARK graph kernels with time complexity $O(n^{2})$ or $m$. There is a prerequisite for this graph kernel. The graph must has lower intrinsic ranks than the order of the graph.
+\subsection{problem of main-memory volume}
+All the fast random walk graph kernels or algorithms are under the consumption that the whole graph can be fit in the main-memory. But with the real-world network or graph becoming larger and larger, this condition can't be satisfied any more.
 % conference papers do not normally have an appendix
 
 

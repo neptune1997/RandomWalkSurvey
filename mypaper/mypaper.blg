@@ -4,7 +4,7 @@ White space in argument---line 22 of file mypaper.aux
  :               luxburg2007a}
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys Brand2005A and brand2005a
----line 55 of file mypaper.aux
+---line 54 of file mypaper.aux
  : \citation{Brand2005A
  :                     }
 I'm skipping whatever remains of this command
@@ -91,16 +91,22 @@ Repeated entry---line 554 of file refer.bib
  : @article{Kempe2003Quantum
  :                          ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Spitzer1976Principles"
-Warning--I didn't find a database entry for "Rudnick2004Elements"
-Warning--I didn't find a database entry for "Weiss1994Aspects"
-Warning--I didn't find a database entry for "Hughes1998Random"
-Warning--I didn't find a database entry for "Lempel2001SALSA"
-Warning--I didn't find a database entry for "D2005Towards"
-Warning--I didn't find a database entry for "Jeh2002SimRank"
+Repeated entry---line 572 of file refer.bib
+ : @book{Sarkar2011Random
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 608 of file refer.bib
+ : @article{Venegas2012Quantum
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 617 of file refer.bib
+ : @article{Lov1993Random
+ :                       ,
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in Weiss1994Aspects
 Warning--empty journal in brand2005a
 Warning--empty journal in woodruff2000enhancing
 Warning--empty journal in qiu2005image
@@ -111,6 +117,7 @@ Warning--empty journal in tishby2001data
 Warning--empty journal in Aldous2002Reversible
 Warning--empty booktitle in Adomavicius2008Recommendation
 Warning--empty journal in Elliott2004The
+Warning--empty booktitle in Kang2012Fast
 
 Done.
-(There were 21 error messages)
+(There were 24 error messages)

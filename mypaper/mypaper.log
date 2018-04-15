@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  15 APR 2018 21:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  16 APR 2018 00:13
 entering extended mode
 **C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
 (C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
@@ -218,33 +218,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 398.
 
 
-LaTeX Warning: Citation `Spitzer1976Principles' on page 1 undefined on input li
-ne 428.
-
-
-LaTeX Warning: Citation `Rudnick2004Elements' on page 1 undefined on input line
- 428.
-
-
-LaTeX Warning: Citation `Weiss1994Aspects' on page 1 undefined on input line 42
-8.
-
-
-LaTeX Warning: Citation `Hughes1998Random' on page 1 undefined on input line 42
-8.
-
-
-LaTeX Warning: Citation `Lempel2001SALSA' on page 1 undefined on input line 434
-.
-
-
-LaTeX Warning: Citation `D2005Towards' on page 1 undefined on input line 434.
-
-
-LaTeX Warning: Citation `Jeh2002SimRank' on page 1 undefined on input line 434.
-
-
-
 LaTeX Warning: Citation `von luxburg2007a' on page 1 undefined on input line 43
 6.
 
@@ -345,20 +318,19 @@ Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 
-Overfull \hbox (106.88382pt too wide) detected at line 817
-\OML/cmm/m/it/10 U \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (2 [] \O
-MS/cmsy/m/n/10  \U/msb/m/n/10.03749 1\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 S \OT1/c
-mr/m/n/10 = [] \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 j; k\OMS/cmsy/m/n/10 ih\OML/c
-mm/m/it/10 k; j\OMS/cmsy/m/n/10 j [] \OT1/cmr/m/n/10 := [] \OMS/cmsy/m/n/10 j\O
-ML/cmm/m/it/10  []\OMS/cmsy/m/n/10 ih\OML/cmm/m/it/10  []\OMS/cmsy/m/n/10 jj\OM
-L/cmm/m/it/10  []\OMS/cmsy/m/n/10 i \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 j\OML/cm
-m/m/it/10 j\OMS/cmsy/m/n/10 i[] 
- [] []j\OML/cmm/m/it/10 k\OMS/cmsy/m/n/10 i[]
+Overfull \hbox (124.66158pt too wide) detected at line 819
+[] []
  []
 
 [7] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
  [8]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
@@ -382,10 +354,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2210 strings out of 495354
- 34006 string characters out of 3183130
- 92869 words of memory out of 3000000
- 5395 multiletter control sequences out of 15000+200000
+ 2211 strings out of 495354
+ 34020 string characters out of 3183130
+ 93869 words of memory out of 3000000
+ 5396 multiletter control sequences out of 15000+200000
  41428 words of font info for 79 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
  27i,11n,24p,3111b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -402,7 +374,7 @@ CTEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/Applications/CTE
 X/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/ty
 pe1/urw/times/utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/ut
 mr8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mypaper.pdf (9 pages, 204085 bytes).
+Output written on mypaper.pdf (9 pages, 207495 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

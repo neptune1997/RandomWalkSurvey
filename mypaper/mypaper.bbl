@@ -25,6 +25,21 @@
 K.~Pearson, ``The problem of the random walk,'' \emph{Nature}, vol.~72, no.
   1865, p. 294, 1905.
 
+\bibitem{Spitzer1976Principles}
+F.~Spitzer, ``Principles of random walk. (zz),'' \emph{Springer Verlag Gmbh},
+  1976.
+
+\bibitem{Rudnick2004Elements}
+J.~Rudnick and G.~Gaspari, ``Elements of the random walk,'' \emph{Contemporary
+  Physics}, vol.~46, no.~2, pp. 147--148, 2004.
+
+\bibitem{Weiss1994Aspects}
+G.~H. Weiss, ``Aspects and applications of the random walk,'' 1994.
+
+\bibitem{Hughes1998Random}
+B.~D. Hughes, ``Random walks and random environments, vol. 1: Random walks,''
+  \emph{Biometrics}, vol.~54, no.~3, pp. 1675--1677, 1998.
+
 \bibitem{Venegas2012Quantum}
 S.~Venegas-Andraca, ``Quantum walks: A comprehensive review,'' \emph{Quantum
   Information Processing}, vol.~11, no.~5, pp. 1015--1106, 2012.
@@ -51,6 +66,21 @@ L.~Page, ``The pagerank citation ranking : Bringing order to the web,''
 \bibitem{Kleinberg1999Authoritative}
 J.~M. Kleinberg, ``Authoritative sources in a hyperlinked environment,''
   \emph{Journal of the Acm}, vol.~46, no.~5, pp. 604--632, 1999.
+
+\bibitem{Lempel2001SALSA}
+R.~Lempel and S.~Moran, ``Salsa:the stochastic approach for link-structure
+  analysis,'' \emph{Acm Transactions on Information Systems}, vol.~19, no.~2,
+  pp. 131--160, 2001.
+
+\bibitem{D2005Towards}
+D.~Fogaras, B.~Rácz, K.~Csalogány, and T.~Sarlós, ``Towards scaling fully
+  personalized pagerank: Algorithms, lower bounds, and experiments,''
+  \emph{Internet Mathematics}, vol.~2, no.~3, pp. 333--358, 2005.
+
+\bibitem{Jeh2002SimRank}
+G.~Jeh and J.~Widom, ``Simrank: a measure of structural-context similarity,''
+  in \emph{Eighth ACM SIGKDD International Conference on Knowledge Discovery
+  and Data Mining}, 2002, pp. 538--543.
 
 \bibitem{fouss2005a}
 F.~Fouss, A.~Pirotte, and M.~Saerens, ``A novel way of computing similarities
@@ -313,5 +343,8 @@ G.~Brassard, P.~Hoyer, M.~Mosca, and A.~Tapp, ``Quantum amplitude amplification
 \bibitem{grover1996a}
 L.~K. Grover, ``A fast quantum mechanical algorithm for database search,''
   \emph{symposium on the theory of computing}, pp. 212--219, 1996.
+
+\bibitem{Kang2012Fast}
+U.~Kang, H.~Tong, and J.~Sun, ``Fast random walk graph kernel,'' 2012.
 
 \end{thebibliography}
