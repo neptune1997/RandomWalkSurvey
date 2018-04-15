@@ -50,5 +50,5 @@
 
 24. inevitable
 
-25. ​
+25. inherent
 

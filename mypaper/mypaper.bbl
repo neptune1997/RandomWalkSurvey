@@ -25,6 +25,24 @@
 K.~Pearson, ``The problem of the random walk,'' \emph{Nature}, vol.~72, no.
   1865, p. 294, 1905.
 
+\bibitem{Venegas2012Quantum}
+S.~Venegas-Andraca, ``Quantum walks: A comprehensive review,'' \emph{Quantum
+  Information Processing}, vol.~11, no.~5, pp. 1015--1106, 2012.
+
+\bibitem{Sarkar2011Random}
+P.~Sarkar and A.~W. Moore, \emph{Random Walks in Social Networks and their
+  Applications: A Survey}.\hskip 1em plus 0.5em minus 0.4em\relax Springer US,
+  2011.
+
+\bibitem{Lov1993Random}
+L.~Lovász, L.~Lov, and O.~P. Erdos, ``Random walks on graphs: A survey,''
+  \emph{Combinatorics}, vol.~8, no.~4, pp. 1--46, 1993.
+
+\bibitem{Aldous1999Reversible}
+D.~J. Aldous and J.~Fill, ``Reversible markov chains and random walks on
+  graphs,'' \emph{Journal of Theoretical Probability}, vol.~2, no.~1, pp.
+  91--100, 1999.
+
 \bibitem{Page1998The}
 L.~Page, ``The pagerank citation ranking : Bringing order to the web,''
   \emph{Stanford Digital Libraries Working Paper}, vol.~9, no.~1, pp. 1--14,
@@ -33,16 +51,6 @@ L.~Page, ``The pagerank citation ranking : Bringing order to the web,''
 \bibitem{Kleinberg1999Authoritative}
 J.~M. Kleinberg, ``Authoritative sources in a hyperlinked environment,''
   \emph{Journal of the Acm}, vol.~46, no.~5, pp. 604--632, 1999.
-
-\bibitem{Haveliwala2003Topic}
-T.~H. Haveliwala, \emph{Topic-sensitive PageRank: A context-sensitive ranking
-  algorithm for Web search}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE
-  Educational Activities Department, 2003.
-
-\bibitem{Aldous1999Reversible}
-D.~J. Aldous and J.~Fill, ``Reversible markov chains and random walks on
-  graphs,'' \emph{Journal of Theoretical Probability}, vol.~2, no.~1, pp.
-  91--100, 1999.
 
 \bibitem{fouss2005a}
 F.~Fouss, A.~Pirotte, and M.~Saerens, ``A novel way of computing similarities
@@ -151,18 +159,14 @@ A.~N. Langville and C.~D. Meyer, \emph{Google's PageRank and Beyond: The
   Science of Search Engine Rankings}.\hskip 1em plus 0.5em minus 0.4em\relax
   Princeton University Press, 2011.
 
-\bibitem{Sarkar2011Random}
-P.~Sarkar and A.~W. Moore, \emph{Random Walks in Social Networks and their
-  Applications: A Survey}.\hskip 1em plus 0.5em minus 0.4em\relax Springer US,
-  2011.
+\bibitem{Haveliwala2003Topic}
+T.~H. Haveliwala, \emph{Topic-sensitive PageRank: A context-sensitive ranking
+  algorithm for Web search}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE
+  Educational Activities Department, 2003.
 
 \bibitem{Aldous2002Reversible}
 D.~Aldous and J.~A. Fill, ``Reversible markov chains and random walks on
   graphs-chapter 9: A second look at general markov chains,'' 2002.
-
-\bibitem{Lov1993Random}
-L.~Lovász, L.~Lov, and O.~P. Erdos, ``Random walks on graphs: A survey,''
-  \emph{Combinatorics}, vol.~8, no.~4, pp. 1--46, 1993.
 
 \bibitem{Adomavicius2008Recommendation}
 G.~Adomavicius and A.~Tuzhilin, ``Recommendation technologies: Survey of
@@ -222,10 +226,6 @@ M.~Szummer and T.~Jaakkola, ``Partially labeled classification with markov
 N.~Tishby and N.~Slonim, ``Data clustering by markovian relaxation and the
   information bottleneck method,'' in \emph{International Conference on Neural
   Information Processing Systems}, 2000, pp. 368--377.
-
-\bibitem{Venegas2012Quantum}
-S.~Venegas-Andraca, ``Quantum walks: A comprehensive review,'' \emph{Quantum
-  Information Processing}, vol.~11, no.~5, pp. 1015--1106, 2012.
 
 \bibitem{Kempe2003Quantum}
 J.~Kempe, ``Quantum random walks: an introductory overview,''
