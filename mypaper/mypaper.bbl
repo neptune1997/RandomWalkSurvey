@@ -109,6 +109,10 @@ M.~Gori and A.~Pucci, ``Research paper recommender systems: A random-walk based
 M.~Meila and J.~Shi, ``A random walks view of spectral segmentation. aistats,''
   \emph{Ai \& Statistics}, 2001.
 
+\bibitem{vonluxburg2007a}
+U.~Von~Luxburg, ``A tutorial on spectral clustering,'' \emph{Statistics and
+  Computing}, vol.~17, no.~4, pp. 395--416, 2007.
+
 \bibitem{1704833}
 L.~Grady, ``Random walks for image segmentation,'' \emph{IEEE Transactions on
   Pattern Analysis and Machine Intelligence}, vol.~28, no.~11, pp. 1768--1783,
@@ -217,10 +221,15 @@ Y.~Liu, X.~Zeng, Z.~He, and Z.~Quan, ``Inferring microrna-disease associations
   \emph{IEEE/ACM Transactions on Computational Biology \& Bioinformatics},
   vol.~PP, no.~99, pp. 1--1, 2017.
 
+\bibitem{Gori2007ItemRank}
+M.~Gori and A.~Pucci, ``Itemrank: a random-walk based scoring algorithm for
+  recommender engines,'' in \emph{International Joint Conference on Artifical
+  Intelligence}, 2007, pp. 2766--2771.
+
 \bibitem{Gori2007Research}
-M.~Gori and A.~Pucci, ``Research paper recommender systems: A random-walk based
-  approach,'' in \emph{Ieee/wic/acm International Conference on Web
-  Intelligence}, 2007, pp. 778--781.
+------, ``Research paper recommender systems: A random-walk based approach,''
+  in \emph{Ieee/wic/acm International Conference on Web Intelligence}, 2007,
+  pp. 778--781.
 
 \bibitem{Xia2016Scientific}
 F.~Xia, H.~Liu, I.~Lee, and L.~Cao, ``Scientific article recommendation:
@@ -346,5 +355,24 @@ L.~K. Grover, ``A fast quantum mechanical algorithm for database search,''
 
 \bibitem{Kang2012Fast}
 U.~Kang, H.~Tong, and J.~Sun, ``Fast random walk graph kernel,'' 2012.
+
+\bibitem{Tong2006Fast}
+H.~Tong, C.~Faloutsos, and J.~Y. Pan, ``Fast random walk with restart and its
+  applications,'' in \emph{International Conference on Data Mining}, 2006, pp.
+  613--622.
+
+\bibitem{Karypis1998A}
+G.~Karypis and V.~Kumar, \emph{A Fast and High Quality Multilevel Scheme for
+  Partitioning Irregular Graphs}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Society for Industrial and Applied Mathematics, 1998.
+
+\bibitem{Karypis1998Metis}
+------, ``Metis: a software package for partitioning unstructured graphs,''
+  \emph{International Cryogenics Monograph}, pp. págs. 121--124, 1998.
+
+\bibitem{Sarkar2010Fast}
+P.~Sarkar and A.~W. Moore, ``Fast nearest-neighbor search in disk-resident
+  graphs,'' in \emph{ACM SIGKDD International Conference on Knowledge Discovery
+  and Data Mining}, 2010, pp. 513--522.
 
 \end{thebibliography}

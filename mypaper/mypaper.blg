@@ -1,44 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: mypaper.aux
-White space in argument---line 22 of file mypaper.aux
- : \citation{von
- :               luxburg2007a}
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys Brand2005A and brand2005a
----line 54 of file mypaper.aux
- : \citation{Brand2005A
- :                     }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys Woodruff2000Enhancing and woodruff2000enhancing
----line 66 of file mypaper.aux
- : \citation{Woodruff2000Enhancing
- :                                }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys Mcnee2002On and mcnee2002on
----line 67 of file mypaper.aux
- : \citation{Mcnee2002On
- :                      }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys Qiu2005Image and qiu2005image
----line 75 of file mypaper.aux
- : \citation{Qiu2005Image
- :                       }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys Qiu2005Image and qiu2005image
----line 78 of file mypaper.aux
- : \citation{Qiu2005Image
- :                       }
-I'm skipping whatever remains of this command
 Case mismatch error between cite keys Azran2007The and azran2007the
----line 82 of file mypaper.aux
+---line 86 of file mypaper.aux
  : \citation{Azran2007The
  :                       }
 I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: refer.bib
-I was expecting a `,' or a `}'---line 63 of file refer.bib
- : @article{von 
- :              luxburg2007a,
-I'm skipping whatever remains of this entry
 Repeated entry---line 124 of file refer.bib
  : @article{Page1998The
  :                     ,
@@ -48,58 +15,54 @@ Repeated entry---line 184 of file refer.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 199 of file refer.bib
- : @article{Woodruff2000Enhancing
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 206 of file refer.bib
  : @inproceedings{Mcnee2002On
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 229 of file refer.bib
+Repeated entry---line 222 of file refer.bib
  : @article{Brand2005A
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 263 of file refer.bib
+Repeated entry---line 256 of file refer.bib
  : @inproceedings{Azran2007The
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 270 of file refer.bib
+Repeated entry---line 263 of file refer.bib
  : @inproceedings{Szummer2001Partially
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 321 of file refer.bib
+Repeated entry---line 314 of file refer.bib
  : @article{Kempe2003Quantum
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 417 of file refer.bib
+Repeated entry---line 410 of file refer.bib
  : @inproceedings{Qiu2005Image
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 431 of file refer.bib
+Repeated entry---line 424 of file refer.bib
  : @book{Qiu2006Robust
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 505 of file refer.bib
+Repeated entry---line 498 of file refer.bib
  : @book{Liben2007The
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 512 of file refer.bib
+Repeated entry---line 505 of file refer.bib
  : @article{Katz1953A
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 554 of file refer.bib
+Repeated entry---line 547 of file refer.bib
  : @article{Kempe2003Quantum
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 572 of file refer.bib
+Repeated entry---line 565 of file refer.bib
  : @book{Sarkar2011Random
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 608 of file refer.bib
+Repeated entry---line 601 of file refer.bib
  : @article{Venegas2012Quantum
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 617 of file refer.bib
+Repeated entry---line 610 of file refer.bib
  : @article{Lov1993Random
  :                       ,
 I'm skipping whatever remains of this entry
@@ -120,4 +83,4 @@ Warning--empty journal in Elliott2004The
 Warning--empty booktitle in Kang2012Fast
 
 Done.
-(There were 24 error messages)
+(There were 16 error messages)
