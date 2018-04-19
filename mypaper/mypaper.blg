@@ -1,9 +1,4 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: mypaper.aux
-Case mismatch error between cite keys Azran2007The and azran2007the
----line 86 of file mypaper.aux
- : \citation{Azran2007The
- :                       }
-I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: refer.bib
 Repeated entry---line 124 of file refer.bib
@@ -83,4 +78,4 @@ Warning--empty journal in Elliott2004The
 Warning--empty booktitle in Kang2012Fast
 
 Done.
-(There were 16 error messages)
+(There were 15 error messages)
