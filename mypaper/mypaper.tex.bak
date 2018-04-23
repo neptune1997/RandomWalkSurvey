@@ -659,7 +659,9 @@ There are many link prediction problem using personalized page rank as a proximi
 \end{cases} \]
 
 %\end{equation}
-\end{comment} 
+\end{comment}
+
+
 $Hij$ denotes the hitting time from node $i$ to node $j$. $P_{ik}$ denotes the transition probability from node I to node k. As we have mentioned before, on the undirected graph, transition probability matrix is symmetric. However, the hitting time matrix is not symmetric even on the undirected graph. Another important fact about hitting time was proved by Lovasz \cite{Lov1993Random}: hitting time follows the triangle inequality.
 The commute time from node I to node j is defined as :
 \begin{equation}
