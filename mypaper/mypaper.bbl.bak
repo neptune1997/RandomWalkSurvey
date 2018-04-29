@@ -137,6 +137,36 @@ A.~Azran, ``The rendezvous algorithm: multiclass semi-supervised learning with
 N.~Tishby and N.~Slonim, ``Data clustering by markovian relaxation and the
   information bottleneck method,'' pp. 640--646, 2001.
 
+\bibitem{Kempe2003Quantum}
+J.~Kempe, ``Quantum random walks: an introductory overview,''
+  \emph{Contemporary Physics}, vol.~50, no.~1, pp. 339--359, 2003.
+
+\bibitem{Brun2002Quantum}
+T.~A. Brun, H.~A. Carteret, and A.~Ambainis, ``Quantum to classical transition
+  for random walks,'' \emph{Physical Review Letters}, vol.~91, no.~13, p.
+  130602, 2002.
+
+\bibitem{Aharonov1993Quantum}
+Y.~Aharonov, L.~Davidovich, and N.~Zagury, ``Quantum random walks,''
+  \emph{Physical Review A}, vol.~48, no.~2, p. 1687, 1993.
+
+\bibitem{Feynman1965Quantum}
+R.~P. Feynman and A.~R. Hibbs, ``Quantum mechanics and path integrals
+  (international series in pure and applied physics),'' \emph{Students
+  Quarterly Journal}, vol.~37, no. 145, 1965.
+
+\bibitem{Meyer1996From}
+D.~A. Meyer, ``From quantum cellular automata to quantum lattice gases,''
+  \emph{Journal of Statistical Physics}, vol.~85, no. 5-6, pp. 551--574, 1996.
+
+\bibitem{Meyer1996On}
+------, ``On the absence of homogeneous scalar unitary cellular automata,''
+  \emph{Physics Letters A}, vol. 223, no.~5, pp. 337--340, 1996.
+
+\bibitem{Farhi1997Quantum}
+E.~Farhi and S.~Gutmann, ``Quantum computation and decision trees,''
+  \emph{Phys.rev.a}, vol.~58, no.~2, pp. 915--928, 1997.
+
 \bibitem{Adar2003Friends}
 E.~Adar, Lada A.~Adamic, ``Friends and neighbors on the web,'' in \emph{Social
   Networks}, 2003, pp. 211--230.
@@ -206,6 +236,17 @@ D.~Aldous and J.~A. Fill, ``Reversible markov chains and random walks on
 P.~G. Doyle and J.~L. Snell, \emph{Random Walks and Electric Networks:}.\hskip
   1em plus 0.5em minus 0.4em\relax Mathematical Association of America, 1984.
 
+\bibitem{Farahat2006Authority}
+A.~Farahat, T.~Lofaro, J.~C. Miller, G.~Rae, and L.~A. Ward, ``Authority
+  rankings from hits, pagerank, and salsa: Existence, uniqueness, and effect of
+  initialization,'' \emph{Siam Journal on Scientific Computing}, vol.~27,
+  no.~4, pp. 1181--1201, 2006.
+
+\bibitem{Luxburg2010Hitting}
+U.~V. Luxburg, A.~Radl, and M.~Hein, ``Hitting and commute times in large
+  graphs are often misleading,'' \emph{Computer Science}, vol. abs/1003.1266,
+  2010.
+
 \bibitem{Adomavicius2008Recommendation}
 G.~Adomavicius and A.~Tuzhilin, ``Recommendation technologies: Survey of
   current methods and possible extensions,'' 2008.
@@ -269,36 +310,6 @@ M.~Szummer and T.~Jaakkola, ``Partially labeled classification with markov
 N.~Tishby and N.~Slonim, ``Data clustering by markovian relaxation and the
   information bottleneck method,'' in \emph{International Conference on Neural
   Information Processing Systems}, 2000, pp. 368--377.
-
-\bibitem{Kempe2003Quantum}
-J.~Kempe, ``Quantum random walks: an introductory overview,''
-  \emph{Contemporary Physics}, vol.~50, no.~1, pp. 339--359, 2003.
-
-\bibitem{Brun2002Quantum}
-T.~A. Brun, H.~A. Carteret, and A.~Ambainis, ``Quantum to classical transition
-  for random walks,'' \emph{Physical Review Letters}, vol.~91, no.~13, p.
-  130602, 2002.
-
-\bibitem{Aharonov1993Quantum}
-Y.~Aharonov, L.~Davidovich, and N.~Zagury, ``Quantum random walks,''
-  \emph{Physical Review A}, vol.~48, no.~2, p. 1687, 1993.
-
-\bibitem{Feynman1965Quantum}
-R.~P. Feynman and A.~R. Hibbs, ``Quantum mechanics and path integrals
-  (international series in pure and applied physics),'' \emph{Students
-  Quarterly Journal}, vol.~37, no. 145, 1965.
-
-\bibitem{Meyer1996From}
-D.~A. Meyer, ``From quantum cellular automata to quantum lattice gases,''
-  \emph{Journal of Statistical Physics}, vol.~85, no. 5-6, pp. 551--574, 1996.
-
-\bibitem{Meyer1996On}
-------, ``On the absence of homogeneous scalar unitary cellular automata,''
-  \emph{Physics Letters A}, vol. 223, no.~5, pp. 337--340, 1996.
-
-\bibitem{Farhi1997Quantum}
-E.~Farhi and S.~Gutmann, ``Quantum computation and decision trees,''
-  \emph{Phys.rev.a}, vol.~58, no.~2, pp. 915--928, 1997.
 
 \bibitem{Elliott2004The}
 C.~Elliott, ``The darpa quantum network,'' 2004.

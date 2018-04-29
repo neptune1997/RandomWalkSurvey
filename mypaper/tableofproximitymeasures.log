@@ -1,0 +1,81 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  28 APR 2018 09:25
+entering extended mode
+**C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/tableofproximitymeasures.
+tex
+
+(C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/tableofproximitymeasures.t
+ex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(D:\Applications\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\Applications\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(D:\Applications\CTEX\MiKTeX\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks14
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+(C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\tableofproximitymeasures.a
+ux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+
+Overfull \hbox (107.39577pt too wide) in alignment at lines 8--17
+[][][][][] 
+ []
+
+
+Overfull \hbox (110.24408pt too wide) in paragraph at lines 8--18
+ [][] 
+ []
+
+[1{D:/Applications/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd
+}}]
+(C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\tableofproximitymeasures.a
+ux) ) 
+Here is how much of TeX's memory you used:
+ 257 strings out of 495354
+ 3251 string characters out of 3183130
+ 47421 words of memory out of 3000000
+ 3506 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 23i,7n,17p,226b,175s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on tableofproximitymeasures.pdf (1 page, 19514 bytes).
+PDF statistics:
+ 10 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

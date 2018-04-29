@@ -434,11 +434,11 @@ There are also literatures illustrating the application of random walk on graph 
 When we talk about random walk in computer science community, there is one well-known algorithm that can't be omitted. It is
 is page rank algorithm\cite{Page1998The}. Not only because of the great result it has achieved in practical problems, but also because it provides a objective way to measure the closeness between vertices. Based on the random walk, there are many other proximity measures. some of them are variants of page rank, such as HITS\cite{Kleinberg1999Authoritative}, SALSA\cite{Lempel2001SALSA}, personalized page rank\cite{D2005Towards} and Simrank\cite{Jeh2002SimRank}.
 \par
-Based on these proximity measures, random walk plays an important role in all the areas of computer science. In the area of collaborative filtering, researchers have introduced some algorithms based on the proximity measures \cite{fouss2005a,brand2005a}. There some other alternative approaches to solve the problem of collaborative filtering, but these approaches can't incorporate large of contextual information.
+Based on these proximity measures, random walk plays an important role in all the areas of computer science. In the area of collaborative filtering, researchers have introduced some algorithms based on the proximity measures \cite{fouss2005a,Brand2005A}. There some other alternative approaches to solve the problem of collaborative filtering, but these approaches can't incorporate large of contextual information.
 Link prediction and recommender system are essentially the same as the collaborative filtering. They all aim to calculate the \textbf{k-most-close} vertices for one node. Hence the random walk view is also effective in these fields\cite{woodruff2000enhancing,mcnee2002on,gori2006research}. Random walk is also used in computer vision\cite{Meila2001A,vonluxburg2007a,1704833,qiu2005image} and semi-supervised learning\cite{zhu2003semi-supervised,szummer2002partially,azran2007the,tishby2001data}.
 
 \par
-The rest of this paper is organized as follows. \underline{In section 2, we will introduction some basic concepts of random walk. In section 3, we will introduce some important proximity measures in random walk. In section 4, we will introduce the application of random walk in computer science, including collaborative filtering, recommender system. In section 5, we will introduce the random walk from a quantum view the quantum walks. In section 6, we will discuss about the challenge of random walk in computer science. In section 6, we summarize the problems and discuss the open issues of random walk in the area of computer science.}
+The rest of this paper is organized as follows. First, we are going to know the background and basic concepts of random walk including quantum walk in section 2. In section 3, we'll introduce proximity measures based on random walk and make an analytical comparison of them. Then we are about to see the application of proximity measures in section 4. In section 5, we discuss about the problems and open issues of random walk. Finally, we make a conclusion in section 6.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \iffalse
@@ -551,9 +551,9 @@ Subsubsection text here.
 % Note that, LaTeX2e, unlike IEEE journals/conferences, places
 % footnotes above bottom floats. This can be corrected via the
 % \fnbelowfloat command of the stfloats package.
-\section{Brief Introduction of Random Walk}
-
-\par Random walk is an important part of stochastic process. Stochastic process can be denoted as $\{ \xi_{t}, t=0,1,2,... \}$. $\xi_{t}$ is a random variable. Single step transition probability can be denoted as  $P\{\xi_{t+1}=j \vert \xi{t}=i\}$. $T$ steps transition probability are defined as follows.
+\section{Background of Random Walk}
+\subsection{Classical Random Walk}
+\par Random walk is an important part of stochastic process. Stochastic process can be denoted as $\{ \xi_{t}, t=0,1,2,... \}$. $\xi_{t}$ is a random variable. Single step transition probability can be denoted as  $P\{\xi_{t+1}=j \vert \xi{t}=i\}$. $T$ steps transition probability is defined as follows.
 \begin{equation}
 p_{ij}^{(t)}=P\{\xi_{s+t}\vert \xi_{t}=i\}
 \end{equation}
@@ -570,11 +570,68 @@ The Laplacian of $G$ can be defined as follows.
 \begin{equation}\label{lp}
 L = D-A
 \end{equation}
+\subsection{Quantum View of Random Walk}
+The scalable quantum computer is a topical issue, hence the approaches of quantum computation and quantum information are popular topics nowadays.
+It is essential and inevitable that we introduce a quantum view of random walk. There are much literature that gives us explicit introduction to quantum random
+walk in a comprehensive way\cite{Venegas2012Quantum,Kempe2003Quantum,Brun2002Quantum,Aharonov1993Quantum}. In this section, we will just using a simple example
+of one dimensional quantum walk to give you a brief introduction, and focus more on the application of quantum walk in computer science society.
+
+Kempe et al\cite{Kempe2003Quantum} presented us two kinds of quantum walks including discrete time quantum walk and continuous time quantum walk. We will give
+an easy one-dimension example to help quickly know the basic idea of discrete times quantum walk and continuous time quantum walk.
+\subsubsection{Discrete Time Quantum Walk}\quad \par
+The discrete time model first appeared in the work of Feynman\cite{Feynman1965Quantum} in 1966. In the field of quantum computation, Meyer rediscovered the
+discrete time model of quantum walk \cite{Meyer1996From}
+\cite{Meyer1996On}. We define a space $H=H_{p}\bigotimes  H_{c}$ for one dimensional quantum walk, . $H_{p}$ denotes Hilbert space.  For one dimensional Hilbert
+space, it can be represented as follows.
+\begin{equation}
+H_{p}=\lbrace \vert i\rangle : i \in Z\rbrace
+\end{equation}
+${H_{c}}$  is spanned by two basic states  $\lbrace \vert\uparrow  \rangle,\vert \downarrow\rangle \rbrace$.  Operation $S$ defines the translation on space
+$H$.
+\begin{equation}
+S =\vert \uparrow\rangle\langle\uparrow\vert\otimes\sum_{i}{\vert i+1\rangle\langle i \vert +\vert\downarrow\rangle\langle \downarrow\vert \otimes\sum_{i}{\vert
+i-1\rangle}}\langle i \vert
+\end{equation}
+S can transform the basic state $\vert \uparrow \rangle \otimes \vert i \rangle $ to $ \vert \uparrow \rangle \otimes \vert i+1\rangle $ and $\vert
+\downarrow\rangle\otimes \vert i\rangle to \vert \downarrow\rangle\otimes\vert i-1\rangle$.
+
+C is a unitrary transformation to rotate the spin in $H_{c}$.  A frequently used unitary transformation is called Hadamard coin $H$.  Here is an example of H.
+\begin{equation}
+\vert \uparrow \rangle \otimes \vert 0\rangle\xrightarrow{H} \frac{1}{\sqrt{2}} (\vert \uparrow\rangle + \vert\downarrow\rangle)\otimes\vert0\rangle
+\end{equation}
+The single quantum walk transformation can be defined as follows.
+\begin{equation}
+ U = S\cdot(C\otimes I)
+\end{equation}
+Here is a example of single step transformation.
+
+\begin{equation}
+\vert \uparrow \rangle \otimes \vert 0\rangle \xrightarrow{U} \frac{1}{\sqrt{2}}(\vert
+\uparrow\rangle\otimes\vert1\rangle+\vert\downarrow\rangle\otimes\vert-1\rangle)
+\end{equation}
+
+The T steps of transformation can be represented by $U^{T}$.
+
+
+
+\subsubsection{Continuous Time Quantum Walk}\quad
+\par
+The original purpose of  continuous time quantum walk is  to speed up many a algorithm using classic random walks. The concept of continuous time quantum walk
+was first presented by Farhi et al. in 1997\cite{Farhi1997Quantum}. The authors exploit quantum walk in the decision tree algorithm instead of classic random
+walk. Different from discrete time quantum walk, continuous time quantum walk don't need a coin space $Hc$, taking place entirely in the Hilbert space
+$Hp$.\cite{Kempe2003Quantum} . The idea of continuous time quantum walk is from continuous random walk.  The continuous time random walk can be defined as
+\begin{equation}
+P(t) = exp(-Ht)P(0)
+\end{equation} Similarly, the unitary time evolution operator of continuous time quantum walk is
+
+\begin{equation}\label{unitaryo}
+\hat{U}(t)=exp(-i\hat{H}t)
+\end{equation}
 
 
 
 \section{Proximity Measures}\label{pm}
-In this section, we will discuss the proximity measures based on random walk. The proximity measures have been frequently used in the scope of computer science especially in the graph algorithm. we can roughly divide these measures into two classes, Pagerank and its variants, hitting time and commute time. Pagerank and its variants are originally presented to serve a search engine. Hence we can break it into query irrelevant proximity measures and  query relevant proximity measures. The query irrelevant measures include pagerank and HITS, and the query relevant measures include personalized pagerank. Note that we would like to have a comprehensive way to get to know classical proximity measures, some other variants of pagerank such as SALSA,Simrank etc. will not be introduced in this section. And some other non-random-walk proximity measures like Katze score will also be omitted in this section. You can refer to these literature\cite{Jeh2002SimRank,Adar2003Friends,Katz1953A,Liben2007The,Crnic1983Introduction,Broder2002On} for further information. Since these proximity measures are so popular, there are many researchers devising fast algorithms to calculate these proximity measures\cite{Bloom1970Space,Broder2000Min,Najork2009Less,Najork2008Efficient}. \underline{To focus on simplicity, we will not discuss about these fast algorithms a lot.}
+In this section, we will discuss the proximity measures based on random walk. The proximity measures have been frequently used in the scope of computer science especially in the graph algorithm. we can roughly divide these measures into two classes, Pagerank and its variants, hitting time and commute time. Pagerank and its variants are originally presented to serve a search engine. Hence we can break it into query irrelevant proximity measures and  query relevant proximity measures. The query irrelevant measures include pagerank and HITS, and the query relevant measures include personalized pagerank. Note that we would like to have a comprehensive way to get to know classical proximity measures, some other variants of pagerank such as SALSA,Simrank etc. will not be introduced in this section. And some other non-random-walk proximity measures like Katze score will also be omitted in this section. You can refer to these literature\cite{Jeh2002SimRank,Adar2003Friends,Katz1953A,Liben2007The,Crnic1983Introduction,Broder2002On} for further information. Since these proximity measures are so popular, there are many researchers devising fast algorithms to calculate these proximity measures\cite{Bloom1970Space,Broder2000Min,Najork2009Less,Najork2008Efficient}. In order to be concise, these fast algorithms will not be introduced in this section.
 \subsection{PageRank}
 
 The most famous Proximity measure is the pagerank. It was first proposed by Lary Page\cite{Page1998The}. The purpose of this measure is to rank the webpage in World Wide Web. The network of webpage is considered as a graph where random walk happens. The graph is made up by vertexes and edges. The webpages are considered as the vertexes. If there is a webpage containing a hyperlink which pointing to anther webpage, then there should be a directed edge between these two vertexes. The direction of the edge is as same as the web redirection. The most simple page rank can be describe by the mathematic equation.
@@ -598,7 +655,7 @@ Alpha is the probability that the random walk restart in given steps. Alpha is c
 
 
 \subsection{HITS}
-The structure of World Wide Web(WWW) is a rich source of information. Therefore, Jon M. Kleinberg \cite{Kleinberg1998Authoritative} presents 
+The structure of World Wide Web(WWW) is a rich source of information. Therefore, Jon M. Kleinberg \cite{Kleinberg1998Authoritative} presents
 \emph{Hyperlink-Induce topic search}(HITS) to analyse the structure of WWW, and derives the topic of web pages. The author proposes that there are two kinds of useful web-pages for topic search: authorities and hubs. He also proposes a link-base model for the conferral of authority. There are millions of pages relevant to a broad topic. Authorities are the most central pages for the broad topic, which provide good information for the broad topic. Whereas the hubs are those pages contains hyper-links redirecting to the authorities. Now, we can discuss that main procedure of how the author provide a broad topic search result for the user. Given a query, the author construct a focused subgraph of the \emph{World Wide Web} relevant to the broad topic. The subgraph contains a set of relevant pages rich in candidate authorities. Then the author present an algorithm to discover authorities over the subgraph. The author would like to construct a subgraph denoted by $S$ which satisfy the following requirements:
 \begin{itemize}
   \item S is relatively small.
@@ -659,9 +716,9 @@ There are many link prediction problem using personalized page rank as a proximi
 \end{cases} \]
 
 %\end{equation}
-\end{comment} 
-$Hij$ denotes the hitting time from node $i$ to node $j$. $P_{ik}$ denotes the transition probability from node I to node k. As we have mentioned before, on the undirected graph, transition probability matrix is symmetric. However, the hitting time matrix is not symmetric even on the undirected graph. Another important fact about hitting time was proved by Lovasz \cite{Lov1993Random}: hitting time follows the triangle inequality.
-The commute time from node I to node j is defined as :
+\end{comment}
+$Hij$ denotes the hitting time from node $i$ to node $j$. $P_{ik}$ denotes the transition probability from node $i$ to node $k$. As we have mentioned before, on the undirected graph, transition probability matrix is symmetric. However, the hitting time matrix is not symmetric even on the undirected graph. Another important fact about hitting time was proved by Lovasz \cite{Lov1993Random}: hitting time follows the triangle inequality.
+The commute time from node $i$ to node $j$ is defined as :
 \begin{equation}
   C_{ij} =h_{ij} +h_{ji}
 \end{equation}		
@@ -674,11 +731,10 @@ In order to research the \textbf{commute time} on undirected graphs, Ashok K. Ch
 
 \end{itemize}
 
-
-
-
+\subsection{Comparison of Proximity Measures}
+In this section, we have introduced four kinds of proximity measures, and we want to make a comparison of these four proximity measures. The table show  major differences of these four proximity measures. The analytical comparison table briefly shows the differences of proximity measures. HITS and personalized pagerank are the variants of pagerank. We first introduce the flaw of the pagerank proximity measure. The pagerank proximity measure is sensitive to the noise in the network. An example to show the flaw of pagerank is \emph{302 Google Jacking}--a spoofing technique. This technique shows that the rank score of a vertex can be easily manipulated. As the variants of pagerank, HITS and personalized pagerank don't overcome this flaw either. One of the advantages of pagerank is the simplicity, compared with the other proximity measures, . HITS is much more complex than pagerank. It requires extra method to decide the "\emph{authorities}". Despite the complexity, HITS is abnormal on certain networks. In \cite{Farahat2006Authority} the authors show that HITS inappropriately rank vertexes with zero. As for personalized pagerank, it can rank the webpage depending on the arbitrary query requests. But personalized pagerank requires precomputing\cite{D2005Towards}. Hitting time and commute time, as a popular proximity measure, is more robust than pagerank, and it is exploited in many scenarios, such as graph embedding, image processing, and so on. However, the research of Luxburg et al.\cite{Luxburg2010Hitting} shows that hitting time and commute time doesn't derive the structure of graph when the number of vertexes is reaching to infinity. Thus, the hitting time $H_{uv}$ converges to $\frac{1}{d_{v}}$ and the commute time converges to $\frac{1}{d_{v}}+\frac{1}{d_{u}}$ where $d_{u}$ and $d_{v}$ denote the degree of vertex $u$ and vertex $v$ respectively. In the following section, we will show some successful application of these four proximity measures. We will see how to exploit the properties of them efficiently.
 \section{Applications of Random Walk}
-Random walk have been successfully applied in different era of computer science such as social network analysis, computer vision and so on.
+Random walk have been successfully applied in different area of computer science such as social network analysis, computer vision and so on.
 Many applications of random walk are based on the proximity measures mentioned in the proximity measures section \ref{pm} such as recommender system, link prediction
 and collaborative filtering. These applications' intuition is to construct a graph or network for random walk. There are also some different ideas when researchers applying random walk on computer vision and semi-supervised learning.
 
@@ -688,7 +744,7 @@ and collaborative filtering. These applications' intuition is to construct a gra
 Collaborative filtering is a method of making automatic predictions about the interests of a user by collecting preferences or taste information from many
 users. The assumption of collaborative filtering is that two people who have the same taste on one issue will have the same interest on the other issues.
 \par
-Much literature has recorded methods of collaborative filtering with successful demonstrations of Bayesian, nonparametric, linear methods \underline{etc}\cite{Adomavicius2008Recommendation}. All these methods are essentially the same. They all match the individual to others based on their choices, and use combination of their experiences to predict future choices. However, Brand et al \cite{brand2005a} introduced a random walk view to collaborative filtering. The goal of Brand is to find out what products a customer wants to buy next. He want to find out what product categories are preferred by a specific demographic group. They derived a weighted association graph from a relational database. These weighted association graphs include consumers and their web browsing behavior, shopping behavior and entertainment choices, etc. Figure 1 is a fragment of the association graph derived from the relational data base.
+Much literature has recorded methods of collaborative filtering with successful demonstrations of Bayesian, nonparametric, linear methods etc\cite{Adomavicius2008Recommendation}. All these methods are essentially the same. They all match the individual to others based on their choices, and use combination of their experiences to predict future choices. However, Brand et al \cite{brand2005a} introduced a random walk view to collaborative filtering. The goal of Brand is to find out what products a customer wants to buy next. He want to find out what product categories are preferred by a specific demographic group. They derived a weighted association graph from a relational database. These weighted association graphs include consumers and their web browsing behavior, shopping behavior and entertainment choices, etc. Figure 1 is a fragment of the association graph derived from the relational data base.
 \begin{figure}[htb]
   \centering
   % Requires \usepackage{graphicx}
@@ -722,7 +778,7 @@ Random walk is one of the useful approaches to solve link prediction problem. Ju
 
 
 \subsection{Recommender System }
-Recommender system with random walk approaches sometimes is just like the intuition of collaborative filtering. The inherent quality is just the same. They all exploit random walk to calculate the \textbf{closeness} between vertices. One of the persuasive evidences is that there is a literature\cite{Gori2007ItemRank} compare algorithm for recommender system with collaborative filtering algorithm presented in \cite{fouss2005a}. Hence we will give a specific application scenario to introduce the recommender system based on random walk. The scenario is recommending paper for researchers.
+Recommender system with random walk approaches sometimes is just like the intuition of collaborative filtering. The inherent quality is just the same. They all exploit random walk to calculate the \textbf{closeness} between vertices. One of the persuasive evidences is that there is a literature\cite{Gori2007ItemRank} comparing an algorithm for recommender system with one of the collaborative filtering algorithms presented in \cite{fouss2005a}. Hence we will give a specific application scenario to introduce the recommender system based on random walk. The scenario is recommending paper for researchers.
 \par
 Some scholars use random walk to solve their own problem during doing research. They find that it is hard for them to find out useful literature recently published in their field. A researcher is supposed to be well aware of recent development of the field he is working on. So a paper recommendation system can help them find out potential helpful papers which is meaningful and time saving. Because publications increase exponentially, selecting useful papers is really a pain in the neck for the most researchers.
 \par
@@ -742,7 +798,7 @@ Meila et al. \cite{Meila2001A} present an approach of image clustering and segme
 \par
  Grady et al.\cite{Grady2006Random} propose a new algorithm for performing multi-label and interactive image segmentation. The interactive image segmentation means that the user has to label some pixels in the image manually. The algorithm can determine the probability of the random walker which starting from an unlabeled pixel reaching the predefined pixels. Therefore, a good segmentation of that image arises from the labels of all the pixels. The predefined labels indicate that the regions of the image belong to several objects. The authors treat the picture as a graph including nodes and edges. Nodes represents the pixels of the image. Edges represents the connection of two nodes, and the weigh of the edge means the likelihood of a random walker going through that edge. The authors believe that this view of image segmentation has two advantages: no discretization errors and no ambiguity. One reason of no discrestization is that the authors use purely combinational operators that require no discretization. The segmentation algorithm only requires the solution to a sparse, symmetric, positive definite system of equation, hence the efficiency of this algorithm is guaranteed.
  \par
- Qiu et al.\cite{qiu2005image} exploit the properties of the commute time to develop image segmentation method. They compute the commute time from the spectrum. By using the discrete Green¡¯s function of graphs, they can analyze the cuts of the image from commute time. Qiu et al. also use commute time to motion track \cite{Qiu2006Robust}. The main purpose of using commute time as proximity measure is to alleviate the effect of noise on the shape interaction matrix. The noise on the shape interaction matrix results in the loss of block-diagonal structure and the difficulty of the assignment of elements to objects. Commute time is a more robust measure than raw proximity matrix when facing the noise on the shape interaction matrix. The authors compute the commute time by using the Laplacian matrix shown in equation \ref{lp}. \underline{They also show us that how the ensemble the commute time, kernel of PCA (Principle Component Analysis), the Laplacian eigenmap and the diffusion map. To demonstrate the result of the robust method, they compare it with some other motion tracking algorithms on synthetic and real world data.} The function of commute time is to provide a proximity measure for the approaches provided by Qin in \cite{Qiu2006Robust,qiu2005image}.
+ Qiu et al.\cite{qiu2005image} exploit the properties of the commute time to develop image segmentation method. They compute the commute time from the spectrum. By using the discrete Green¡¯s function of graphs, they can analyze the cuts of the image from commute time. Qiu et al. also use commute time to motion track \cite{Qiu2006Robust}. The main purpose of using commute time as proximity measure is to alleviate the effect of noise on the shape interaction matrix. The noise on the shape interaction matrix results in the loss of block-diagonal structure and the difficulty of the assignment of elements to objects. Commute time is a more robust measure than raw proximity matrix when facing the noise on the shape interaction matrix. The authors compute the commute time by using the Laplacian matrix shown in equation \ref{lp}. They also show us that how the ensemble the commute time, kernel of PCA (Principle Component Analysis), the Laplacian eigenmap and the diffusion map. To demonstrate the result of the robust method, they compare it with some other motion tracking algorithms on synthetic and real world data. The function of commute time is to provide a proximity measure for the approaches provided by Qin\cite{Qiu2006Robust,qiu2005image}.
 
 
 \subsection{Semi-supervised Learning}
@@ -762,52 +818,6 @@ P_{post}(y\vert k) = \sum_{i}P(y\vert i)P_{0\vert t}(i\vert k)
 \end{equation}
 $P(y|i)$ is an unknown parameter, which can be estimated by two techniques: maximum likelihood with Expectation Maximization(\emph{EM}), and maximum margin subject to constraints. They discuss the two techniques in the paper and empirically show that the margin estimation has better performance. In a word, the authors provide a novel approach for semi-supervised learning task when the data sets with significant manifold structure. The parameter $t$ in this approach is also important. $T$, denoting the number of transitions, determines the smoothness of random walk. However, the choice of $t$ can be tricky and subjective. To overcome this little problem, Azran \cite{azran2007the} presents the rendezvous algorithm. Just the same as the work of Szummer \cite{Szummer2001Partially}, the author represents the data points as nodes of a graph and employ the random walk view to do classification. The intuition of the authors' approach is the labels¡¯ propagation over the graph. But the rendezvous algorithm is different. The labeled points don¡¯t propagate, but absorb the states of the random walk. The probability of each unlabeled data to be absorbed by different labeled points can be used to derive a distribution as the transition steps increase to infinity. Hence the rendezvous algorithm doesn't bother to choose a good value of the parameter $t$. The author draws a conclusion that the location of labeled point in the data set is as important as the size of labeled data set in terms of the experiments¡¯ results.
 
-\section{Quantum View of Random Walk}
-The scalable quantum computer is a topical issue, hence the approaches of quantum computation and quantum information are popular topics nowadays.
-It is essential and inevitable that we introduce a quantum view of random walk. There are much literature that gives us explicit introduction to quantum random walk in a comprehensive way\cite{Venegas2012Quantum,Kempe2003Quantum,Brun2002Quantum,Aharonov1993Quantum}. In this section, we will just using a simple example of one dimensional quantum walk to give you a brief introduction, and focus more on the application of quantum walk in computer science society.
-
-Kempe et al\cite{Kempe2003Quantum} presented us two kinds of quantum walks including discrete time quantum walk and continuous time quantum walk. We will give an easy one-dimension example to help quickly know the basic idea of discrete times quantum walk and continuous time quantum walk.
-\subsection{Discrete Time Quantum Walk}
-The discrete time model first appeared in the work of Feynman\cite{Feynman1965Quantum} in 1966. In the field of quantum computation, Meyer rediscovered the discrete time model of quantum walk \cite{Meyer1996From}
-\cite{Meyer1996On}. We define a space $H=H_{p}\bigotimes  H_{c}$ for one dimensional quantum walk, . $H_{p}$ denotes Hilbert space.  For one dimensional Hilbert space, it can be represented as follows.
-\begin{equation}
-H_{p}=\lbrace \vert i\rangle : i \in Z\rbrace
-\end{equation}
-${H_{c}}$  is spanned by two basic states  $\lbrace \vert\uparrow  \rangle,\vert \downarrow\rangle \rbrace$.  Operation $S$ defines the translation on space $H$.
-\begin{equation}
-S =\vert \uparrow\rangle\langle\uparrow\vert\otimes\sum_{i}{\vert i+1\rangle\langle i \vert +\vert\downarrow\rangle\langle \downarrow\vert \otimes\sum_{i}{\vert i-1\rangle}}\langle i \vert
-\end{equation}
-S can transform the basic state $\vert \uparrow \rangle \otimes \vert i \rangle $ to $ \vert \uparrow \rangle \otimes \vert i+1\rangle $ and $\vert \downarrow\rangle\otimes \vert i\rangle to \vert \downarrow\rangle\otimes\vert i-1\rangle$.
-
-C is a unitrary transformation to rotate the spin in $H_{c}$.  A frequently used unitary transformation is called Hadamard coin $H$.  Here is an example of H.
-\begin{equation}
-\vert \uparrow \rangle \otimes \vert 0\rangle\xrightarrow{H} \frac{1}{\sqrt{2}} (\vert \uparrow\rangle + \vert\downarrow\rangle)\otimes\vert0\rangle
-\end{equation}
-The single quantum walk transformation can be defined as follows.
-\begin{equation}
- U = S\cdot(C\otimes I)
-\end{equation}
-Here is a example of single step transformation.
-
-\begin{equation}
-\vert \uparrow \rangle \otimes \vert 0\rangle \xrightarrow{U} \frac{1}{\sqrt{2}}(\vert \uparrow\rangle\otimes\vert1\rangle+\vert\downarrow\rangle\otimes\vert-1\rangle)
-\end{equation}
-
-The T steps of transformation can be represented by $U^{T}$.
-
-
-
-\subsection{Continuous Time Quantum Walk}
-
-
-The original purpose of  continuous time quantum walk is  to speed up many a algorithm using classic random walks. The concept of continuous time quantum walk was first presented by Farhi et al. in 1997\cite{Farhi1997Quantum}. The authors exploit quantum walk in the decision tree algorithm instead of classic random walk. Different from discrete time quantum walk, continuous time quantum walk don't need a coin space $Hc$, taking place entirely in the Hilbert space $Hp$.\cite{Kempe2003Quantum} . The idea of continuous time quantum walk is from continuous random walk.  The continuous time random walk can be defined as
-\begin{equation}
-P(t) = exp(-Ht)P(0)
-\end{equation} Similarly, the unitary time evolution operator of continuous time quantum walk is
-
-\begin{equation}\label{unitaryo}
-\hat{U}(t)=exp(-i\hat{H}t)
-\end{equation}
 
 
 
@@ -822,14 +832,14 @@ In this section, we are going to introduce some algorithms based on the two quan
 \par
 Fahri\cite{Farhi1997Quantum} originally presented the idea of continuous time quantum walk with the example of decision tree algorithm. He chooses the approach that systematically exploring the whole tree with a probabilistic rule. The author aims to achieve that the n-level nodes can be reach in polynomial time with a considerable probability. A tree is a penetrable tree when its node or nodes in n-level meet the requirement above. If a tree is penetrable for an specific algorithm, we believe that the problem corresponding to the decision tree is solvable with this algorithm in the polynomial time.
 The author presents the quantum walk algorithm for decision tree with following intuition.
-He considers decision tree nodes as quantum states in \emph{Hilbert} space. Then he constructs a Hamiltonian $\hat{H}$ which determines the time evolution of the quantum system. With the basis of Hamiltonian, the author presents the unitary time evolution operator shown in the Equation \ref{unitaryo}. The author compare quantum walk decision tree algorithm with classical counterpart, and find that there is a family of trees which are both classical penetrable and quantum penetrable. However, Some decision trees is quantum penetrable but not classical penetrable. With these findings, the author draws the conclusion that quantum algorithms are more faster with respect to the classical decision tree algorithms for \underline{some decision tree problems.}
+He considers decision tree nodes as quantum states in \emph{Hilbert} space. Then he constructs a Hamiltonian $\hat{H}$ which determines the time evolution of the quantum system. With the basis of Hamiltonian, the author presents the unitary time evolution operator shown in the Equation \ref{unitaryo}. The author compare quantum walk decision tree algorithm with classical counterpart, and find that there is a family of trees which are both classical penetrable and quantum penetrable. However, Some decision trees is quantum penetrable but not classical penetrable. With these findings, we can see that quantum tree algorithms is faster that classical counterparts in some occasions.
 %\subsubsection{Traversal quantum algorithm}
 
 
 
 \subsubsection{Quantum Page Rank Algorithm} \quad
 \par
-page rank algorithm is one of the most important random walk algorithms. When quantum computation is widely considered in the era of random walk, it is natural and inevitable to apply quantum computation on page rank algorithm.
+Page rank algorithm is one of the most important random walk algorithms. When quantum computation is widely considered in the era of random walk, it is natural and inevitable to apply quantum computation on page rank algorithm.
 There is much literature  of quantum networks\cite{Elliott2004The,Peev2009The,Fujiwara2011Field,Stucki2011Long,Lancho2009QKD,langer2009standardization}. In order to study the behavior of pagerank algorithm in the quantum network, the authors present the quantum page rank algorithm\cite{paparo2012google}. However, the authors don't give a specific defination of quantum page rank algorithms, but give a admissible class shown as follows.
 \begin{enumerate}
 \item The classical PageRank must be embedded into the quantum class with its undirected graph structure preserved.
@@ -852,7 +862,7 @@ H_{p} = span\{ \vert i \rangle_{1},\vert j\rangle_{2} \quad\vert \quad i,j \in N
 \end{equation}
 where N denotes the all the  vertices of the graph.  Since the edge is oriented, We use the subscript 1,2 to show the direction.
 
-With these defination and the method of Szegedy¡¯s Quantization of Markov Chains \cite{Richter2008Quantization}. We can present the unitatry step operator of quantum walk as follows.
+With these definition and the method of Szegedy¡¯s Quantization of Markov Chains \cite{Richter2008Quantization}. We can present the unitatry step operator of quantum walk as follows.
 %\begin{equation}
 \begin{align}
 U &=S(2\Pi - \mathit{1})\\
@@ -868,26 +878,22 @@ The authors apply quantum pagerank algorithm on small generated network to have 
 \par
 We introduce the element distinctness problem first. Element distinctness problem is to tell whether all the elements in a given sequence are distinct. More precisely, $M={x_{i},i\in N}$, are there $x_{i} \in M and x_{j} in M$ and $i \neq j$ such that $x_{i}=x_{j}$? There is a simple classical algorithm to solve this problem with $Nlog(N)+O(N)$ comparisons. Buhrman et al. present an quantum algorithm to speedup\cite{buhrman2000quantum}. Their algorithm give a upper bound of computation cost $O(N^{\frac{3}{4}}log(N))$. Ambainis\cite{Ambainis2004Quantum} improve the quantum way to solve element distinctness with $O(N^{\frac{2}{3}})$ comparisons.
 The intuition of this optimal quantum algorithm is to construct a graph, and transform the element distinctness problem of finding a marked vertex in the graph. In order to search marked vertex efficiently, the author improve the Grover's quantum search algorithm\cite{brassard2000quantum,grover1996a}. The author reuses the information that queries before, and search a marked vertex with $O(N^{\frac{2}{3}})$ comparisons instead of $O(N)$ comparisons in Grover's search algorithm.
-\section{\underline{Open Issues}}
-We are in the era of information explosion. We produce so many data every day. Hence the real-world network is so giant. When we apply random walk on the giant    
-complex real-word network, there are two challenges in front of us. The first one is the speed of the random walk algorithms. The second one is the main-memory    
-volume.                                                                                                                                                            
-\subsection{Speed of Random Walk Algorithms}                                                                                                                       
-The time complexity of graph random walk kernel is at least $O(n^{3})$ or $O(m^{2})$ for graph with n nodes and m edges.\cite{Kang2012Fast} In an artificially     
-generated graph, this time complexity is acceptable, but in a giant graph it is a disaster. There are already researchers coping with this issue. Kang et al.      
-\cite{Kang2012Fast} propose ARK graph kernels with time complexity $O(n^{2})$ or $O(m)$. There is a prerequisite for this graph kernel. The graph must have        
-lower intrinsic ranks than the order of the graph. Tong et al. also realize the speed problem in random walk with restart\cite{Tong2006Fast}. The algorithm with   
-restart needs cubic pre-computation time. The authors also exploit the low-rank property to make random walk with restart faster.                                  
-\subsection{Problem of main-memory Volume}                                                                                                                         
-All the fast random walk graph kernels or algorithms are under the consumption that the whole graph can be fit in the main-memory. But with the real-world         
-networks or graph becoming larger and larger, this condition can't be satisfied any more. One of the solutions is to divide the graph into several clusters.       
-There are literatures provide some approaches for graph partition and clustering on giant network.\cite{Karypis1998A,Karypis1998Metis} One of the most popular     
-method is METIS\cite{Karypis1998Metis}. Since more and more researchers pay attention to the giant network problem, there are a more effective clustering          
-algorithm for graph clustering and a better method to apply random walk on giant network with external memory\cite{Sarkar2010Fast}. The author call the            
-clustering method RWDISK. RWDISK has been proved to be a better way for graph partition on several famous datasets such as DBLP, citeseer and so on. But these     
-method still has a unacceptable time latency with respect to enormous graph.                                                                                       
-\section{\underline{Conclusion}}
-In this paper, we introduce the random walk from the view of application in computer science. We get to know some prerequisite knowledge of understanding proximity measures based on the random walk first. Then we discuss about some classical proximity measures in a comprehensible way. Some complex variants of proximity measures we don't pay much attention to, but they won't be obstacles for us to have a whole picture of proximity measures based on random walk in our mind. With a map of proximity measures, we can find a clear path through the forest of random walk algorithms. We talk about proximity based algorithms like link prediction algorithms, collaborative filtering algorithms, and recommender systems. There are also some machine learning problems that can be well solved from the perspective of random walk. In the field of computer vision, random walk help to solve the problem of graph segmentation. In semi-supervised learning, random walk is also a effective approach. With the development of quantum computation and quantum information, it is necessary to introduce a quantum view of random walk. In case we are lost in the tricky concepts of quantum quantum mechanism, we first introduce discrete-time quantum walk and continuous-time quantum walk  with simple one dimensional examples. Then we have discuss about the classical applications of quantum walks. It is exciting to find that there are many different properties and behaviours between random walk and quantum walk. We also introduce some examples that quantum walk approach can gain a remarkable speedup. There are also an important part that we missed. We don't look into the performance of random walk in practical problems.
+\section{Open Issues}
+We are in the era of information explosion. We produce so many data every day. Hence the real-world network is so giant. When we apply random walk on the giant
+complex real-word network, there are two challenges in front of us. The first one is the speed of the random walk algorithms. The second one is the main-memory
+volume.
+\subsection{Speed of Random Walk Algorithms}
+The time complexity of graph random walk kernel is at least $O(n^{3})$ or $O(m^{2})$ for graph with $n$ nodes and $m$ edges\cite{Kang2012Fast}. In an artificially generated graph, this time complexity is acceptable. But it is a disaster on a real-world network since the number of vertexes and edges is huge. It is a challenge of random walk model. There are already researchers coping with this issue. Kang et al.\cite{Kang2012Fast} propose ARK graph kernels with time complexity $O(n^{2})$ or $O(m)$. There is a prerequisite for this graph kernel. The graph must have lower intrinsic ranks than the order of the graph. Tong et al. also realize the speed problem in random walk with restart\cite{Tong2006Fast}. The algorithm of random walk with restart is slow in query time or prohibitive on storage space. The authors also exploit two properties of real-work networks: the block-wise community-like structure and the linear correlations of the adjacency matrix. With these two properties, the author devise B\_LIN approach to make random walk with restart faster. This approach preserves 90\% quality, and saves several levels of magnitude of pre-computation and storage space. As we can see, the main idea to cope with speed of random walk algorithms is to obtain approximate computation but accurate computation. We still require more accurate approximate algorithms for random walk.
+\subsection{Problem of main-memory Volume}
+All the fast random walk graph kernels or algorithms are under the consumption that the whole graph can be fit in the main-memory. But with the real-world
+networks or graph becoming larger and larger, this condition can't be satisfied any more. One of the solutions is to divide the graph into several clusters.
+There are literatures provide some approaches for graph partition and clustering on giant network.\cite{Karypis1998A,Karypis1998Metis} One of the most popular
+method is METIS\cite{Karypis1998Metis}. Since more and more researchers pay attention to the giant network problem, there are a more effective clustering
+algorithm for graph clustering and a better method to apply random walk on giant network with external memory\cite{Sarkar2010Fast}. The author call the
+clustering method RWDISK. RWDISK has been proved to be a better way for graph partition on several famous datasets such as DBLP, citeseer and so on. But these
+method still has a unacceptable time latency with respect to enormous graph. We can see that there are two ways to solve this issue, partition and using external memory.
+\section{Conclusion}
+In this paper, we introduce the random walk from the aspect of computer science. We get to know some prerequisite knowledge of understanding proximity measures based on the random walk first. Then we discuss about some classical proximity measures in a comprehensible way. Some complex variants of proximity measures we don't pay much attention to, but they won't be obstacles for us to have a whole picture of proximity measures based on random walk in our mind. We also make analytical comparison of proximity measures. We analysis the flaw of proximity measures and their application scenarios. We talk about proximity based algorithms like link prediction algorithms, collaborative filtering algorithms, and recommender systems. There are also some machine learning problems that can be well solved from the perspective of random walk. In the field of computer vision, random walk help to solve the problem of graph segmentation. In semi-supervised learning, random walk is also a effective approach. With the development of quantum computation and quantum information, the quantum view of random walk accelerates the computation of random walk algorithms significantly. Then we have discuss about the applications of quantum walks. It is exciting to find that there are many different properties and behaviours between random walk and quantum walk. We also introduce some examples that quantum walk approach can gain a remarkable speedup. Finally, we discuss problems and open issues of random walk. We focus on the problems of random walk on giant networks.
 
 
 

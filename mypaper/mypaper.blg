@@ -1,71 +1,74 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: mypaper.aux
+Case mismatch error between cite keys brand2005a and Brand2005A
+---line 54 of file mypaper.aux
+ : \citation{brand2005a
+ :                     }
+I'm skipping whatever remains of this command
 The style file: IEEEtran.bst
 Database file #1: refer.bib
-Repeated entry---line 124 of file refer.bib
+Repeated entry---line 119 of file refer.bib
  : @article{Page1998The
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 184 of file refer.bib
+Repeated entry---line 179 of file refer.bib
  : @article{Meila2001A
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 199 of file refer.bib
+Repeated entry---line 194 of file refer.bib
  : @inproceedings{Mcnee2002On
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 222 of file refer.bib
- : @article{Brand2005A
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 256 of file refer.bib
+Repeated entry---line 251 of file refer.bib
  : @inproceedings{Azran2007The
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 263 of file refer.bib
+Repeated entry---line 258 of file refer.bib
  : @inproceedings{Szummer2001Partially
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 314 of file refer.bib
+Repeated entry---line 309 of file refer.bib
  : @article{Kempe2003Quantum
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 410 of file refer.bib
+Repeated entry---line 405 of file refer.bib
  : @inproceedings{Qiu2005Image
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 424 of file refer.bib
+Repeated entry---line 419 of file refer.bib
  : @book{Qiu2006Robust
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 498 of file refer.bib
+Repeated entry---line 493 of file refer.bib
  : @book{Liben2007The
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 505 of file refer.bib
+Repeated entry---line 500 of file refer.bib
  : @article{Katz1953A
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 547 of file refer.bib
+Repeated entry---line 542 of file refer.bib
  : @article{Kempe2003Quantum
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 565 of file refer.bib
+Repeated entry---line 560 of file refer.bib
  : @book{Sarkar2011Random
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 601 of file refer.bib
+Repeated entry---line 600 of file refer.bib
  : @article{Venegas2012Quantum
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 610 of file refer.bib
+Repeated entry---line 609 of file refer.bib
  : @article{Lov1993Random
  :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 705 of file refer.bib
+ : @article{D2005Towards
+ :                      ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in Weiss1994Aspects
-Warning--empty journal in brand2005a
 Warning--empty journal in woodruff2000enhancing
 Warning--empty journal in qiu2005image
 Warning--empty journal in zhu2003semi-supervised
@@ -78,4 +81,4 @@ Warning--empty journal in Elliott2004The
 Warning--empty booktitle in Kang2012Fast
 
 Done.
-(There were 15 error messages)
+(There were 16 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  22 APR 2018 09:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  29 APR 2018 16:44
 entering extended mode
 **C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
 (C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
@@ -262,82 +262,55 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 399.
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 44
-1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 441.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 55
+6.
+LaTeX Font Info:    Try loading font information for U+msa on input line 556.
 
 (D:\Applications\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 441.
+LaTeX Font Info:    Try loading font information for U+msb on input line 556.
 
 (D:\Applications\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-Underfull \hbox (badness 3312) in paragraph at lines 441--442
-[]\OT1/ptm/m/n/10.03749 The rest of this pa-per is or-ga-nized as fol-lows.
- []
+) [1{D:/Applications/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.s
+fd}}
 
 
-Overfull \hbox (2223.86523pt too wide) in paragraph at lines 441--442
-$[]$ 
- []
-
-[1{D:/Applications/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd
-}}
-
-
-]
-Underfull \hbox (badness 1622) in paragraph at lines 577--578
-\OT1/ptm/m/n/10.03749 mea-sures in-clude pager-ank and HIT-S, and the query
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 577--578
-\OT1/ptm/m/n/10.03749 rel-e-van-t mea-sures in-clude per-son-al-ized pager-ank.
- Note
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 577--578
-\OT1/ptm/m/n/10.03749 in-for-ma-tion. S-ince these prox-im-i-ty mea-sures are s
-o
- []
-
-
-Overfull \hbox (72.87883pt too wide) in paragraph at lines 577--578
-$[]$ 
- []
-
+] [2]
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
-[2] <er.jpg, id=20, 963.6pt x 542.025pt>
+ [3]
+
+LaTeX Warning: Citation `brand2005a' on page 4 undefined on input line 747.
+
+<er.jpg, id=23, 963.6pt x 542.025pt>
 File: er.jpg Graphic file (type jpg)
  <use er.jpg>
-Package pdftex.def Info: er.jpg used on input line 696.
+Package pdftex.def Info: er.jpg used on input line 751.
 (pdftex.def)             Requested size: 252.94499pt x 142.27956pt.
 
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 696--696
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 751--751
  [][] 
  []
 
-[3]
-Underfull \hbox (badness 2671) in paragraph at lines 704--705
+[4]
+Underfull \hbox (badness 2671) in paragraph at lines 759--760
 []\OT1/ptm/m/n/10.03749 Compute dis-sim-i-lar-i-ty mea-sure be-tween peo-ple
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
+Underfull \hbox (badness 10000) in paragraph at lines 759--760
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--706
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+Underfull \hbox (badness 10000) in paragraph at lines 761--762
 
  []
 
@@ -345,40 +318,30 @@ Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
-[4 <C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/er.jpg>]
+
+Underfull \vbox (badness 5787) has occurred while \output is active []
+
+ [5 <C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/er.jpg>]
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+ [6]
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+ [7]
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 
-Underfull \hbox (badness 1406) in paragraph at lines 746--747
-\OT1/ptm/m/n/10.03749 in-ter-ac-tion ma-trix. The au-thors com-pute the com-mut
-e
- []
-
-
-Overfull \hbox (1001.85124pt too wide) in paragraph at lines 746--747
-$[]$
- []
-
-[5]
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
- [6] [7]
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 863--866
+Underfull \hbox (badness 10000) in paragraph at lines 872--875
 
  []
-
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 872.
 
 [8] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl
 Missing character: There is no Ã in font ptmr7t!
@@ -394,6 +357,8 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
+
+[10]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 )
@@ -408,32 +373,37 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[10] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.aux) ) 
+[11
+
+] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3157 strings out of 495354
- 46811 string characters out of 3183130
- 109059 words of memory out of 3000000
- 6296 multiletter control sequences out of 15000+200000
- 48165 words of font info for 103 fonts, out of 3000000 for 9000
+ 3116 strings out of 495354
+ 46259 string characters out of 3183130
+ 109069 words of memory out of 3000000
+ 6266 multiletter control sequences out of 15000+200000
+ 42472 words of font info for 82 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 27i,11n,24p,1776b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/App
-lications/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/Applications/CTEX/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Applications/CTEX/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmmi5.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb
-><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Appli
-cations/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Applications/
-CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Applications/CTEX/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Applications/CTEX/MiKTeX/fonts
-/type1/urw/times/utmb8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/
-utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><D:/A
-pplications/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mypaper.pdf (10 pages, 297929 bytes).
+ 27i,11n,24p,2132b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Applications/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/Applications
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Applications/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Applications/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr5.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Appl
+ications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Applications/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Applications/CTEX/MiK
+TeX/fonts/type1/urw/times/utmb8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/u
+rw/times/utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.
+pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on mypaper.pdf (11 pages, 302402 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
