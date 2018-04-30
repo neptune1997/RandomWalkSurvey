@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  29 APR 2018 16:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  30 APR 2018 19:01
 entering extended mode
 **C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
 (C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/mypaper.tex
@@ -226,50 +226,58 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
+(D:\Applications\CTEX\MiKTeX\tex\latex\tools\array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen137
+\extrarowheight=\dimen138
+\NC@list=\toks23
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
 (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 334.
-LaTeX Font Info:    ... okay on input line 334.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 334.
-LaTeX Font Info:    ... okay on input line 334.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 334.
-LaTeX Font Info:    ... okay on input line 334.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 334.
-LaTeX Font Info:    ... okay on input line 334.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 334.
-LaTeX Font Info:    ... okay on input line 334.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 334.
-LaTeX Font Info:    ... okay on input line 334.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 335.
+LaTeX Font Info:    ... okay on input line 335.
 
 -- Lines per column: 58 (exact).
 (D:\Applications\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
-\scratchdimen=\dimen137
+\scratchdimen=\dimen139
 \scratchbox=\box30
 \nofMPsegments=\count108
 \nofMParguments=\count109
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count110
-\MPscratchDim=\dimen138
+\MPscratchDim=\dimen140
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks25
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 399.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 400.
 
  (D:\Applications\CTEX\MiKTeX\tex\latex\psnfss\ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 399.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 400.
 LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 55
-6.
-LaTeX Font Info:    Try loading font information for U+msa on input line 556.
+7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 557.
 
 (D:\Applications\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 556.
+LaTeX Font Info:    Try loading font information for U+msb on input line 557.
 
 (D:\Applications\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -281,36 +289,38 @@ fd}}
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
  [3]
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 744.
 
-LaTeX Warning: Citation `brand2005a' on page 4 undefined on input line 747.
+
+LaTeX Warning: Citation `brand2005a' on page 4 undefined on input line 776.
 
 <er.jpg, id=23, 963.6pt x 542.025pt>
 File: er.jpg Graphic file (type jpg)
  <use er.jpg>
-Package pdftex.def Info: er.jpg used on input line 751.
+Package pdftex.def Info: er.jpg used on input line 780.
 (pdftex.def)             Requested size: 252.94499pt x 142.27956pt.
 
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 751--751
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 780--780
  [][] 
  []
 
 [4]
-Underfull \hbox (badness 2671) in paragraph at lines 759--760
+Underfull \hbox (badness 2671) in paragraph at lines 788--789
 []\OT1/ptm/m/n/10.03749 Compute dis-sim-i-lar-i-ty mea-sure be-tween peo-ple
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 759--760
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
+Underfull \hbox (badness 10000) in paragraph at lines 789--790
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 761--762
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 
  []
 
@@ -318,12 +328,7 @@ Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
-
-Underfull \vbox (badness 5787) has occurred while \output is active []
-
- [5 <C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/er.jpg>]
-Missing character: There is no ¡ in font ptmr7t!
-Missing character: There is no ¯ in font ptmr7t!
+[5 <C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/er.jpg>]
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
@@ -335,15 +340,21 @@ Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
  [7]
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no ¯ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 872--875
+Underfull \hbox (badness 10000) in paragraph at lines 901--904
 
  []
 
-[8] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl
+[8]
+
+LaTeX Warning: Citation `Spielman' on page 9 undefined on input line 926.
+
+(C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.bbl [9]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -352,13 +363,11 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ³ in font ptmr7t!
- [9]
+ [10]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¤ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-
-[10]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 )
@@ -373,21 +382,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[11
-
-] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.aux)
+[11] (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\mypaper.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3116 strings out of 495354
- 46259 string characters out of 3183130
- 109069 words of memory out of 3000000
- 6266 multiletter control sequences out of 15000+200000
- 42472 words of font info for 82 fonts, out of 3000000 for 9000
+ 3197 strings out of 495354
+ 47257 string characters out of 3183130
+ 109759 words of memory out of 3000000
+ 6336 multiletter control sequences out of 15000+200000
+ 47940 words of font info for 99 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 27i,11n,24p,2132b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,11n,24p,1842b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Applications/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/Applications
 /CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Applications/CTEX/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Applications/CTEX/MiKTeX/fon
@@ -401,7 +408,7 @@ CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Applications/CTEX/MiK
 TeX/fonts/type1/urw/times/utmb8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/u
 rw/times/utmbi8a.pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.
 pfb><D:/Applications/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mypaper.pdf (11 pages, 302402 bytes).
+Output written on mypaper.pdf (11 pages, 304890 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

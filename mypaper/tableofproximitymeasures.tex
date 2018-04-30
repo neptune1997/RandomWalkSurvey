@@ -1,19 +1,52 @@
+
 \documentclass{article}
 \usepackage{array}
 \begin{document}
 \renewcommand\arraystretch{1.8}
-\begin{table}
+\begin{table*}
 \centering
 \caption{comparison table}
-\begin{tabular*}{16cm}{ccccc}
-    %
+\begin{tabular}{16cm}{ccccc}
     \hline
     www & PageRank & HITS & Personalized PageRank &Hitting time and Commute time\\
     \hline
     Query Dependency & No & No & Yes & No \\
-    Flaw & Noise sensitive  & requires extra method & \quad & cost too much computation \\
-    Application Scenario & web page rank &  & context relevant retrieval & \\
+    Flaw & Noise sensitive  & requires extra method & requires precomputation & confusing on large networks \\
+    Application Scenario & web page rank & topic sensitive information retrieval &  context relevant retrieval & image processing, social network analysis, clustering, semi-supervised learning  \\
     \hline
-\end{tabular*}
-\end{table}
+\end{tabular}
+\end{table*}
+\end{document}
+
+
+
+
+
+
+
+
+\documentclass{article}
+\usepackage{times}
+\pagestyle{empty}
+\setcounter{page}{6}
+\setlength\textwidth{159.0pt}
+\usepackage{graphicx}%Put this in the preamble.
+\begin{document}
+\newsavebox{\tablebox}
+\begin{lrbox}{\tablebox}
+ \begin{tabular}{||l||l||l||l||}
+    \hline\hline{\textbf{Geographic Location}} &
+ {\textbf{Site}} &
+ {\textbf{IP Address}} &
+ {\textbf{Top Level Directory}} \\
+   \hline\hline
+ United States & \tt ftp.shsu.edu & 192.92.115.10 & \it /tex-archive\\
+   \hline\hline
+ England & \tt ftp.tex.ac.uk & 131.151.79.32 & \it /tex-archive\\
+   \hline\hline
+ Germany & \tt ftp.uni-stuttgart.de & 129.69.8.13 & \it /tex-archive\\
+    \hline\hline
+ \end{tabular}
+\end{lrbox}
+\rotatebox[origin=c]{90}{\usebox{\tablebox}}
 \end{document}

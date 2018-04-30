@@ -56,3 +56,5 @@
 
 27. groove
 
+28. pruning
+

@@ -396,4 +396,9 @@ P.~Sarkar and A.~W. Moore, ``Fast nearest-neighbor search in disk-resident
   graphs,'' in \emph{ACM SIGKDD International Conference on Knowledge Discovery
   and Data Mining}, 2010, pp. 513--522.
 
+\bibitem{von_luxburg2010hitting}
+U.~Von~Luxburg, A.~Radl, and M.~Hein, ``Hitting and commute times in large
+  graphs are often misleading,'' \emph{arXiv: Data Structures and Algorithms},
+  2010.
+
 \end{thebibliography}

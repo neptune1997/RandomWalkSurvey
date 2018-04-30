@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  28 APR 2018 09:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.12.17)  29 APR 2018 21:57
 entering extended mode
 **C:/Users/YonghaoFu/Desktop/RandomWalkSurvey/mypaper/tableofproximitymeasures.
 tex
@@ -34,48 +34,48 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 )
 (C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\tableofproximitymeasures.a
 ux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 8.
+(Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 8.
-
-Overfull \hbox (107.39577pt too wide) in alignment at lines 8--17
-[][][][][] 
- []
+(Font)              <5> on input line 9.
 
 
-Overfull \hbox (110.24408pt too wide) in paragraph at lines 8--18
- [][] 
- []
+! Package array Error:  Illegal pream-token (1): `c' used.
 
-[1{D:/Applications/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd
-}}]
-(C:\Users\YonghaoFu\Desktop\RandomWalkSurvey\mypaper\tableofproximitymeasures.a
-ux) ) 
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \begin{tabular}{16cm}
+                         {ccccc}
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.9 \begin{tabular}{16cm}
+                         {ccccc}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
 Here is how much of TeX's memory you used:
- 257 strings out of 495354
- 3251 string characters out of 3183130
- 47421 words of memory out of 3000000
- 3506 multiletter control sequences out of 15000+200000
+ 251 strings out of 495354
+ 3175 string characters out of 3183130
+ 46421 words of memory out of 3000000
+ 3505 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 23i,7n,17p,226b,175s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Applications/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on tableofproximitymeasures.pdf (1 page, 19514 bytes).
-PDF statistics:
- 10 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 23i,4n,17p,226b,176s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

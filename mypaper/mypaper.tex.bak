@@ -105,6 +105,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{array}
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of the IEEE. Loading the cite package will
@@ -434,7 +435,7 @@ There are also literatures illustrating the application of random walk on graph 
 When we talk about random walk in computer science community, there is one well-known algorithm that can't be omitted. It is
 is page rank algorithm\cite{Page1998The}. Not only because of the great result it has achieved in practical problems, but also because it provides a objective way to measure the closeness between vertices. Based on the random walk, there are many other proximity measures. some of them are variants of page rank, such as HITS\cite{Kleinberg1999Authoritative}, SALSA\cite{Lempel2001SALSA}, personalized page rank\cite{D2005Towards} and Simrank\cite{Jeh2002SimRank}.
 \par
-Based on these proximity measures, random walk plays an important role in all the areas of computer science. In the area of collaborative filtering, researchers have introduced some algorithms based on the proximity measures \cite{fouss2005a,brand2005a}. There some other alternative approaches to solve the problem of collaborative filtering, but these approaches can't incorporate large of contextual information.
+Based on these proximity measures, random walk plays an important role in all the areas of computer science. In the area of collaborative filtering, researchers have introduced some algorithms based on the proximity measures \cite{fouss2005a,Brand2005A}. There some other alternative approaches to solve the problem of collaborative filtering, but these approaches can't incorporate large of contextual information.
 Link prediction and recommender system are essentially the same as the collaborative filtering. They all aim to calculate the \textbf{k-most-close} vertices for one node. Hence the random walk view is also effective in these fields\cite{woodruff2000enhancing,mcnee2002on,gori2006research}. Random walk is also used in computer vision\cite{Meila2001A,vonluxburg2007a,1704833,qiu2005image} and semi-supervised learning\cite{zhu2003semi-supervised,szummer2002partially,azran2007the,tishby2001data}.
 
 \par
@@ -732,7 +733,35 @@ In order to research the \textbf{commute time} on undirected graphs, Ashok K. Ch
 \end{itemize}
 
 \subsection{Comparison of Proximity Measures}
-In this section, we have introduced four kinds of proximity measures, and we want to make a comparison of these four proximity measures. The table show  major differences of these four proximity measures. The analytical comparison table briefly shows the differences of proximity measures. HITS and personalized pagerank are the variants of pagerank. We first introduce the flaw of the pagerank proximity measure. The pagerank proximity measure is sensitive to the noise in the network. An example to show the flaw of pagerank is \emph{302 Google Jacking}--a spoofing technique. This technique shows that the rank score of a vertex can be easily manipulated. As the variants of pagerank, HITS and personalized pagerank don't overcome this flaw either. One of the advantages of pagerank is the simplicity, compared with the other proximity measures, . HITS is much more complex than pagerank. It requires extra method to decide the "\emph{authorities}". Despite the complexity, HITS is abnormal on certain networks. In \cite{Farahat2006Authority} the authors show that HITS inappropriately rank vertexes with zero. As for personalized pagerank, it can rank the webpage depending on the arbitrary query requests. But personalized pagerank requires precomputing\cite{D2005Towards}. Hitting time and commute time, as a popular proximity measure, is more robust than pagerank, and it is exploited in many scenarios, such as graph embedding, image processing, and so on. However, the research of Luxburg et al.\cite{Luxburg2010Hitting} shows that hitting time and commute time doesn't derive the structure of graph when the number of vertexes is reaching to infinity. Thus, the hitting time $H_{uv}$ converges to $\frac{1}{d_{v}}$ and the commute time converges to $\frac{1}{d_{v}}+\frac{1}{d_{u}}$ where $d_{u}$ and $d_{v}$ denote the degree of vertex $u$ and vertex $v$ respectively. In the following section, we will show some successful application of these four proximity measures. We will see how to exploit the properties of them efficiently.
+In this section, we have introduced four kinds of proximity measures, and we want to make a comparison of these four proximity measures. The table show  major differences of these four proximity measures. The analytical comparison table briefly shows the differences of proximity measures.
+
+
+
+\begin{table*}[!htbp]
+\renewcommand\arraystretch{1.8}
+\centering
+\caption{comparison table}
+\begin{tabular}{|c|c|c|c|>{\centering\arraybackslash}p{16em}|}
+    \hline
+     & PageRank & HITS & Personalized PageRank &Hitting time and Commute time\\
+    \hline
+    Query Dependency & No & No & Yes & No \\
+    \hline
+    Flaw & noise sensitive  & requires extra method & requires precomputation & confusing on large networks \\
+    \hline
+    Application Scenario & web page rank & topic sensitive information retrieval &  context relevant retrieval & image processing, social network analysis, clustering, semi-supervised learning  \\
+    \hline
+\end{tabular}
+\end{table*}
+
+
+
+
+
+
+
+
+HITS and personalized pagerank are the variants of pagerank. We first introduce the flaw of the pagerank proximity measure. The pagerank proximity measure is sensitive to the noise in the network. An example to show the flaw of pagerank is \emph{302 Google Jacking}--a spoofing technique. This technique shows that the rank score of a vertex can be easily manipulated. As the variants of pagerank, HITS and personalized pagerank don't overcome this flaw either. One of the advantages of pagerank is the simplicity, compared with the other proximity measures, . HITS is much more complex than pagerank. It requires extra method to decide the "\emph{authorities}". Despite the complexity, HITS is abnormal on certain networks. In \cite{Farahat2006Authority} the authors show that HITS inappropriately rank vertexes with zero. As for personalized pagerank, it can rank the webpage depending on the arbitrary query requests. But personalized pagerank requires precomputing\cite{D2005Towards}. Hitting time and commute time, as a popular proximity measure, is more robust than pagerank, and it is exploited in many scenarios, such as graph embedding, image processing, and so on. However, the research of Luxburg et al.\cite{Luxburg2010Hitting} shows that hitting time and commute time doesn't derive the structure of graph when the number of vertexes is reaching to infinity. Thus, the hitting time $H_{uv}$ converges to $\frac{1}{d_{v}}$ and the commute time converges to $\frac{1}{d_{v}}+\frac{1}{d_{u}}$ where $d_{u}$ and $d_{v}$ denote the degree of vertex $u$ and vertex $v$ respectively. In the following section, we will show some successful application of these four proximity measures. We will see how to exploit the properties of them efficiently.
 \section{Applications of Random Walk}
 Random walk have been successfully applied in different area of computer science such as social network analysis, computer vision and so on.
 Many applications of random walk are based on the proximity measures mentioned in the proximity measures section \ref{pm} such as recommender system, link prediction
@@ -745,7 +774,7 @@ Collaborative filtering is a method of making automatic predictions about the in
 users. The assumption of collaborative filtering is that two people who have the same taste on one issue will have the same interest on the other issues.
 \par
 Much literature has recorded methods of collaborative filtering with successful demonstrations of Bayesian, nonparametric, linear methods etc\cite{Adomavicius2008Recommendation}. All these methods are essentially the same. They all match the individual to others based on their choices, and use combination of their experiences to predict future choices. However, Brand et al \cite{brand2005a} introduced a random walk view to collaborative filtering. The goal of Brand is to find out what products a customer wants to buy next. He want to find out what product categories are preferred by a specific demographic group. They derived a weighted association graph from a relational database. These weighted association graphs include consumers and their web browsing behavior, shopping behavior and entertainment choices, etc. Figure 1 is a fragment of the association graph derived from the relational data base.
-\begin{figure}[htb]
+\begin{figure}[htbp]
   \centering
   % Requires \usepackage{graphicx}
   \includegraphics[width=0.50\textwidth]{er.jpg}\\
@@ -892,6 +921,12 @@ method is METIS\cite{Karypis1998Metis}. Since more and more researchers pay atte
 algorithm for graph clustering and a better method to apply random walk on giant network with external memory\cite{Sarkar2010Fast}. The author call the
 clustering method RWDISK. RWDISK has been proved to be a better way for graph partition on several famous datasets such as DBLP, citeseer and so on. But these
 method still has a unacceptable time latency with respect to enormous graph. We can see that there are two ways to solve this issue, partition and using external memory.
+\subsection{Hitting time and commute time are misleading in large graphs}
+
+
+As we have mentioned above,  proximity measures plays an important role in network analysis and beyond. The complexity of computing commute time is O(n^{3})  which is prohibitive  in large graphs. There are some approximations of  commute time to reduce the complexity\cite{Moore, Brand,Spielman}. But we should be carful  about these approximate approaches. These approximations can't represent the structure of large graphs or show the connectivity of vertexes in large graphs. Luxburg et al.\cite{Hitting and commute times in large graphs are often misleading, Hitting and Commute Times in Large Random Neighborhood Graphs} have shown that commute time can be approximated by simple formula with high accuracy when random geometic graphs(k-nearest neighbor graphs, \epsilon-graphs, and Gaussian similarity graph) are large enough. More specifically, commute time H_{uv} can be represented by 1/d_{u}+1/d_{v} in large graphs where d_{u} and d_{v} denote the degree of vertex u and vertex v repectively. Thus, the approximations only consider the local density of two vertexes but the structure information of the whole graph. The authors give two strategies to prove the result: one based on the flow argument of electric network, and the other based on spectral argument.  These two ways both prove that approximations of commute time don't take into account any global properties of large graphs.  In that case, the effectiveness of approximated commute time is doubtful. The computation of commute time in large graph is still a challenge.
+
+
 \section{Conclusion}
 In this paper, we introduce the random walk from the aspect of computer science. We get to know some prerequisite knowledge of understanding proximity measures based on the random walk first. Then we discuss about some classical proximity measures in a comprehensible way. Some complex variants of proximity measures we don't pay much attention to, but they won't be obstacles for us to have a whole picture of proximity measures based on random walk in our mind. We also make analytical comparison of proximity measures. We analysis the flaw of proximity measures and their application scenarios. We talk about proximity based algorithms like link prediction algorithms, collaborative filtering algorithms, and recommender systems. There are also some machine learning problems that can be well solved from the perspective of random walk. In the field of computer vision, random walk help to solve the problem of graph segmentation. In semi-supervised learning, random walk is also a effective approach. With the development of quantum computation and quantum information, the quantum view of random walk accelerates the computation of random walk algorithms significantly. Then we have discuss about the applications of quantum walks. It is exciting to find that there are many different properties and behaviours between random walk and quantum walk. We also introduce some examples that quantum walk approach can gain a remarkable speedup. Finally, we discuss problems and open issues of random walk. We focus on the problems of random walk on giant networks.
 
